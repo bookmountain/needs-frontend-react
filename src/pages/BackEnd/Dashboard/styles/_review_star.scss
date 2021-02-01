@@ -1,0 +1,19 @@
+.react-rater{
+    .react-rater-star
+    {
+        font-size: 50px;
+    }
+    .is-active{
+        color: rgb(247, 222, 30);
+    }
+    .is-active-half{
+        &::before{
+            color: rgb(247, 222, 30);
+        }
+    }
+    .is-active-half8{
+        &::before{
+            color: rgb(247, 222, 30);
+        }
+    }
+}

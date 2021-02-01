@@ -1,0 +1,349 @@
+$primary: #0d5661;
+$secondary: #243a6e;
+$danger: #d44f44;
+$white: #ffffff;
+$font-black: #323232;
+$font-gray: #787878;
+$bg-gray: #cdcdcd;
+$bg-light: #f0f0f0;
+
+@keyframes MOVE-BG {
+  from {
+    opacity: 0;
+    background-position-x: 1000px;
+  }
+  to {
+    opacity: 1;
+    background-position-x: left;
+  }
+}
+
+.investment {
+  .btn {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1 rem;
+    font-weight: 300;
+    line-height: 1.75;
+    letter-spacing: 1.2px;
+    width: 196px;
+    height: 60px;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  h4,
+  h2,
+  h5,
+  h6,
+  p,
+  span,
+  li {
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.75;
+    letter-spacing: 1.2px;
+  }
+
+  .col-lg-6,
+  .col-sm-12,
+  .col-12 {
+    padding: 0;
+  }
+
+  //區域
+
+  .secTitle {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    text-align: center;
+    h4 {
+      font-size: 1.5 rem;
+      font-weight: 500;
+      color: $font-black;
+    }
+    span {
+      font-size: 1 rem;
+      font-weight: 300;
+      color: $font-gray;
+      margin-top: 13px;
+    }
+  }
+
+  .bannerSec {
+    min-height: calc(100vh - 80px);
+    width: 100%;
+    background: center center no-repeat;
+    background-image: url('../../assets/img/investment/1_inverstment_banner.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      color: $white;
+      font-size: 1.75 rem;
+      font-weight: 500;
+      letter-spacing: 3px;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+  }
+
+  a .carousel-control-prev-icon,
+  a .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+    background-size: 20px;
+    border-radius: 100%;
+    background-color: #787878;
+  }
+
+  .templateSilder .carousel-indicators li {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: $font-black;
+    margin: 0 10px;
+  }
+
+  .createStoreSec {
+    text-align: center;
+    .stepCard {
+      display: flex;
+      margin-bottom: 60px;
+      .circle {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: $secondary;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h5 {
+          color: $white;
+        }
+      }
+      .stepTitle h5 {
+        color: $font-black;
+        font-weight: 400;
+        font-size: 1.25rem;
+        margin-top: 30px;
+        margin-bottom: 0;
+      }
+      .arrowRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 12px 50px 12px;
+      }
+    }
+  }
+
+  .partnershipSec {
+    margin-top: 80px;
+    height: 600px;
+    background-image: url('../../assets/img/investment/5_background.png');
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    .secTitle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 0;
+      padding-bottom: 0;
+      h4 {
+        color: $white;
+        margin: 30px auto;
+      }
+    }
+
+    .partnershipContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h4 {
+        color: $danger;
+        font-weight: 400;
+        margin-bottom: 30px;
+        text-decoration: underline;
+      }
+      ul {
+        margin-left: 40%;
+        color: $white;
+        list-style-type: square;
+        list-style-position: inside;
+        li {
+          margin-bottom: 8px;
+          font-family: 'Noto Sans TC', sans-serif;
+          font-weight: 300;
+        }
+      }
+      &.bgImg {
+        background-image: url('../../assets/img/investment/5_subbackground.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation-name: MOVE-BG;
+        animation-timing-function: linear;
+        animation-duration: 1500ms;
+      }
+
+      @media (max-width: 768px) {
+        h4 {
+          font-size: 1.25rem;
+          margin-bottom: 16px;
+        }
+        ul {
+          margin-left: 25%;
+          font-size: 0.875rem;
+        }
+      }
+      @media (max-width: 576px) {
+        ul {
+          margin-left: 15%;
+        }
+      }
+    }
+  }
+  .feeSec {
+    .secTitle {
+      padding-top: 60px;
+      background-color: $bg-light;
+    }
+    .feeContent {
+      position: relative;
+      color: $white;
+      h4 {
+        color: $white;
+      }
+      .standardPlan {
+        background-color: $secondary;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0px 120px 0px;
+      }
+      .premiumPlan {
+        background-color: $primary;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0px 120px 0px;
+      }
+      img {
+        width: 80px;
+      }
+      h4 {
+        margin-top: 30px;
+        margin-bottom: 0px;
+        text-decoration: underline;
+      }
+      .plan {
+        padding: 30px 0px;
+        ul {
+          list-style-position: inside;
+          li {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+      .btn {
+        position: absolute;
+        left: calc(50% - 98px);
+        bottom: 60px;
+      }
+    }
+  }
+
+  .brandListSec {
+    margin-bottom: 80px;
+    .brandContent {
+      display: flex;
+      flex-wrap: wrap;
+      grid-gap: 25px;
+      .brandInfo {
+        text-align: center;
+        flex: 1 1 200px;
+        img {
+          height: 200px;
+        }
+        p {
+          font-size: 1.25rem;
+          color: $font-black;
+          margin-top: 16px;
+          margin-bottom: 55px;
+        }
+      }
+      i {
+        flex: 1 1 200px;
+        height: 200;
+      }
+    }
+  }
+
+  .joinSec {
+    margin-bottom: 80px;
+    background-color: $secondary;
+    text-align: center;
+    .joinContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 80px 0;
+      span {
+        color: $white;
+        padding: 0 50px;
+      }
+      .btn {
+        margin-top: 60px;
+        color: $secondary;
+      }
+    }
+    @media (max-width: 576px) {
+      .joinContent {
+        & > :first-child {
+          display: none;
+        }
+        span {
+          // font-size: 0.875rem;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .questionSec {
+    margin-bottom: 80px;
+    .questionContent {
+      & > :last-child {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+      }
+      .btn-light {
+        width: 100%;
+        border-radius: 0px;
+        box-shadow: none;
+        border-color: transparent;
+        padding: 0.375rem 1.5rem;
+        color: $font-black;
+        font-weight: 400;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        :focus {
+          border: none;
+        }
+      }
+      .collapseContent {
+        font-weight: 300;
+        padding: 1.5rem 3rem;
+        p {
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+$primary: #243a6e;
+$secondary: #0d5661;
+$danger: #d44f44;
+$dark: #6c757d;
+$white: #ffffff;
+$font-black: #323232;
+$font-gray: #787878;
+$bg-gray: #cdcdcd;
+$bg-light: #f0f0f0;
+
+.advantageSec {
+  h4,
+  span {
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.75;
+    letter-spacing: 1.2px;
+  }
+  .secTitle {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    text-align: center;
+    h4 {
+      font-size: 1.5 rem;
+      font-weight: 500;
+      color: $font-black;
+    }
+    span {
+      font-size: 1 rem;
+      font-weight: 300;
+      color: $font-gray;
+      margin-top: 13px;
+    }
+  }
+
+  div.advantageContent {
+    color: $primary;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    .advImg {
+      width: 30%;
+      img {
+        width: 100%;
+      }
+    }
+    .text {
+      margin-left: 2%;
+      margin-right: 2%;
+      h5 {
+        color: $primary;
+      }
+      p {
+        color: $font-gray;
+        margin-bottom: 3px;
+      }
+    }
+    .order {
+      font-size: 12vw;
+    }
+
+    &:nth-child(even) {
+      background-color: $bg-light;
+    }
+    &:nth-child(odd) {
+      flex-direction: row-reverse;
+      .text {
+        text-align: right;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .advantageSec div.advantageContent .text {
+    h5 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .advantageSec div.advantageContent {
+    height: 200px;
+    .advImg {
+      width: 40%;
+    }
+    .text {
+      h5 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .advantageSec div.advantageContent {
+    height: 250px;
+    .advImg {
+      width: 50%;
+    }
+    .order {
+      font-size: 20vw;
+    }
+    .text {
+      margin-top: -30px;
+      order: 5;
+    }
+    &:nth-child(odd) {
+      .text {
+        text-align: left;
+      }
+    }
+  }
+}

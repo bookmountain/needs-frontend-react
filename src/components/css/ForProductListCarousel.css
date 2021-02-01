@@ -1,0 +1,10 @@
+.ForProductListCarousel .carousel-inner {
+  height: 450px;
+}
+
+.ForProductListCarousel .carousel-inner img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+/*# sourceMappingURL=ForProductListCarousel.css.map */

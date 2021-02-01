@@ -1,0 +1,14 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    box-shadow: 1px 1px 100px 2px rgba(0,0,0,0.22);
+    width: 360px;
+    height: 500px;
+    border-radius: 8px;
+    font-size: 16px;
+    position: fixed;
+    bottom: 10px;
+    right: 90px;
+    z-index: 2; 
+}

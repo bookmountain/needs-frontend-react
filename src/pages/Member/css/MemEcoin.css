@@ -1,0 +1,38 @@
+.memecoin .wrapper .icons {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.memecoin .coincard {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: solid 1px #787878;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-box-shadow: 4px 3px #e7e7e7;
+          box-shadow: 4px 3px #e7e7e7;
+}
+
+.memecoin .coincard .one {
+  color: #0d5661;
+}
+
+.memecoin .coincard .two {
+  color: #243a6e;
+}
+
+.memecoin .coincard .three {
+  color: #d44f44;
+}
+
+.memecoin .explain {
+  margin-top: 30px;
+}
+
+.memecoin .explain p {
+  color: #787878;
+}
+/*# sourceMappingURL=MemEcoin.css.map */

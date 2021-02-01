@@ -1,0 +1,167 @@
+@import '../../../../styles/Backend/backend';
+
+.ads-wrapper{
+    .card{
+        border: none;
+        .card-body {
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+        }
+    }
+    .btn-primary{
+        background-color: $primary_color;
+        border: none;
+    }
+    .btn-secondary {
+        background-color: $secondary_color;
+        border: none;
+        color: #fff;
+    }
+    .btn-warning {
+        background-color: $warning_color;
+        border: none;
+        color: #fff;
+    }
+    .ads-preview-card-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .table-container{
+        overflow: auto;
+        white-space: nowrap;
+        width: 100%;
+        th{
+            text-align: center;
+        }
+        td{
+            text-align: center;
+        }
+    }
+    .in-progress-header{
+        font-weight: 500;
+    }
+    .in-progress-table{
+
+    }
+    .in-progress-card-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .goal-box {
+        margin-top: 40px;
+        padding: 1rem;
+        text-align: center;
+
+        .goal-figures {
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+        }
+    }
+    .goal-completed {
+        border-top: 1px solid #ededed;
+        border-right: 1px solid #ededed;
+    }
+
+    .goal-in-progress {
+        border-top: 1px solid #ededed;
+    }
+    .ads-preview{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        .first-img{
+            img {
+                height: 335px;
+            }
+        }
+        .card-body{
+            padding: 0 1.25rem;
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            display: inline-block;
+            width: 20px;
+            height: 2   0px;
+            background-color: #7367F0;
+            border-radius: 5px;
+        }
+        .carousel-control-next{
+            position: absolute;
+            width: 50px;
+            right: -45px;
+        }
+        .carousel-control-prev {
+            position: absolute;
+            width: 50px;
+            left: -45px;
+        }
+        .ads-chart-wrapper{
+            height: 100%;
+            display: flex;
+            // justify-content: space-between;
+            flex-direction: column;
+            .card-title.ads-title{
+                font-size: 1rem;
+            }
+            .card-text{
+                position: relative;
+            }
+        }
+    }
+}
+.ads-modal-wrapper{
+    @media (min-width: 576px) {
+        .modal-dialog {
+            max-width: 500px;
+            margin: 1.75rem auto;
+        }
+    }
+
+    .modal-dialog {
+        .btn-primary {
+            background-color: $primary_color;
+            border: none;
+        }
+        .btn-secondary {
+            background-color: $secondary_color;
+            border: none;
+            color: #fff;
+        }
+
+        .btn-warning {
+            background-color: $warning_color;
+            border: none;
+            color: #fff;
+        }
+
+        .btn-danger {
+            background-color: $danger_color;
+            border: none;
+            color: #fff;
+        }
+        .modal-content{
+            border: none;
+            .modal-header {
+                border-bottom: none;
+            }
+            .modal-body{
+                .upload-ads-img{
+                    border: 2px dashed #787878;
+                    border-radius: 5px;
+                    height: 220px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .modal-footer {
+                border-top: none;
+            }
+        }
+    }
+}
+
+

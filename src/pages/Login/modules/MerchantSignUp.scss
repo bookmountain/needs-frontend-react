@@ -1,0 +1,146 @@
+$primary: #0d5661;
+$primary-focus: rgba(13, 86, 97, 0.6);
+$secondary: #243a6e;
+$secondary-focus: rgba(36, 58, 110, 0.6);
+$danger: #d44f44;
+$white: #ffffff;
+$font-black: #323232;
+$font-gray: #787878;
+$bg-gray: #cdcdcd;
+$bg-light: #f0f0f0;
+
+.merchantSignup {
+  min-height: calc(100vh - 80px);
+  width: 100%;
+  background: center center no-repeat;
+  background-image: url('../../../assets/img/login/loginbg.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+
+  .btn {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1 rem;
+    font-weight: 300;
+    line-height: 1.75;
+    letter-spacing: 1.2px;
+    width: 196px;
+    height: 60px;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  h2,
+  h4,
+  h5,
+  h6,
+  p,
+  span {
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.75;
+    letter-spacing: 1.2px;
+  }
+
+  //區域
+
+  .wrap {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: $white;
+    display: flex;
+    .side {
+      width: 300px;
+      position: relative;
+      .logo {
+        width: 100%;
+      }
+      .signUpimg {
+        width: 90%;
+        margin-left: 15px;
+      }
+    }
+
+    .main {
+      height: 500px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      .signupInput {
+        h4 {
+          color: $secondary;
+          margin-bottom: 16px;
+        }
+        .signupForm {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          input {
+            width: 300px;
+          }
+          .alertmsg {
+            font-size: 0.875rem;
+            color: $danger;
+            margin-top: -16px;
+            margin-bottom: 5px;
+          }
+          .btn {
+            margin-bottom: 16px;
+          }
+        }
+
+        p {
+          font-size: 0.875rem;
+          margin-bottom: 0;
+          a {
+            color: $danger;
+            &:hover,
+            &:focus {
+              color: $danger;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 576px) {
+    .wrap {
+      display: flex;
+      justify-content: center;
+      .side {
+        display: none;
+      }
+    }
+  }
+}
+
+.signUpModal .modal-dialog {
+  text-align: center;
+  width: 400px;
+  .modal-body {
+    margin: 50px;
+    padding: 0;
+    h4 {
+      font-family: 'Noto Sans TC', sans-serif;
+      line-height: 1.75;
+      letter-spacing: 1.2px;
+      color: $secondary;
+    }
+    .btn {
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 1 rem;
+      font-weight: 300;
+      line-height: 1.75;
+      letter-spacing: 1.2px;
+      width: 196px;
+      height: 60px;
+      border-radius: 3px;
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+}

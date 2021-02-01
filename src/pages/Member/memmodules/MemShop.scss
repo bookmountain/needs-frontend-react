@@ -1,0 +1,67 @@
+$primary: #243a6e;
+$secondary: #0d5661;
+$danger: #d44f44;
+$dark: #6c757d;
+$font-black: #323232;
+$font-gray: #787878;
+$bg-gray: #cdcdcd;
+$bg-light: #f0f0f0;
+$shadow: #e7e7e7;
+//memshop
+.memshop {
+    .wrapper {
+        .icons {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        a {
+            color: $danger;
+
+            .icons {
+                margin-top: -2px;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+
+//---memshop shoppinglist
+.shoppinglist {
+    .listhead {
+        width: 850px;
+        height: 50px;
+        background-color: $bg-gray;
+        margin-top: 20px;
+        @media screen and (min-width:481px) and (max-width:768px) {
+            width: 350px;
+            height: 50px;
+        }
+        th {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        td {
+            text-align: center;
+            vertical-align: middle;
+        }
+    }
+
+    .box {
+        width: 90px;
+        height: 90px;
+        background-color: blue;
+        border-radius: 10px;
+        margin: 5px;
+        @media screen and (min-width:481px) and (max-width:768px) {
+            margin:auto;
+        }
+    }
+}
+
+
+//memshop 以上購物清單

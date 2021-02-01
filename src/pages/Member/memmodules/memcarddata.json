@@ -1,0 +1,17 @@
+
+[
+  {
+    "id": 1,
+      "customer_id": "C1000",
+      "name": "瞿佩思",
+      "gender": "女",
+      "birthday": "1980-12-15T16:00:00.000Z",
+      "age": "40",
+      "phone_number": "0958216884",
+      "address": "雲林縣莿桐鄉埔尾村004鄰油車７０之３號",
+      "email": "sherry@gmail.com",
+      "password": "15122640e8595068c87016a7f79f4b0aea0c5688",
+      "e_points": "43",
+      "creat_date": "2020-09-02T09:17:10.000Z"
+  }
+]

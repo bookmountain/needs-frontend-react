@@ -1,0 +1,203 @@
+.merchantLogin {
+  min-height: calc(100vh - 80px);
+  width: 100%;
+  background: center center no-repeat;
+  background-image: url("../../../assets/img/login/loginbg.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.merchantLogin .btn-primary {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1 rem;
+  font-weight: 300;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+  width: 196px;
+  height: 60px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.merchantLogin .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.merchantLogin h2,
+.merchantLogin h4,
+.merchantLogin h5,
+.merchantLogin h6,
+.merchantLogin p,
+.merchantLogin span {
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+}
+
+.merchantLogin .side {
+  width: 300px;
+  height: 500px;
+  background-color: #243a6e;
+  border-radius: 20px 0 0 20px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  color: #ffffff;
+  text-align: center;
+}
+
+.merchantLogin .side .logo {
+  margin: 70px auto;
+}
+
+.merchantLogin .side .logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.merchantLogin .side .text {
+  margin-bottom: 90px;
+}
+
+.merchantLogin .side .text p {
+  margin-bottom: 3px;
+}
+
+.merchantLogin .side a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.merchantLogin .side a:hover {
+  color: #d44f44;
+}
+
+.merchantLogin .main {
+  width: 500px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 0 20px 20px 0;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  text-align: center;
+}
+
+.merchantLogin .main .loginRole {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 30px 16px 0px;
+}
+
+.merchantLogin .main .loginRole .btn-link {
+  color: #787878;
+  font-weight: 400;
+  height: 25px;
+  line-height: 0;
+}
+
+.merchantLogin .main .loginRole button.actived {
+  color: #d44f44;
+  font-weight: 500;
+}
+
+.merchantLogin .main .loginRole .seperator {
+  border-left: 1px solid #787878;
+  border-radius: 0px;
+}
+
+.merchantLogin .main .loginInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.merchantLogin .main .loginInput h4 {
+  color: #243a6e;
+  margin-bottom: 16px;
+}
+
+.merchantLogin .main .loginInput .socialMedia {
+  margin-bottom: 1rem;
+}
+
+.merchantLogin .main .loginInput .socialMedia a {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.merchantLogin .main .loginInput .loginForm input {
+  width: 300px;
+}
+
+.merchantLogin .main .loginInput .loginForm .alertmsg {
+  font-size: 0.875rem;
+  color: #d44f44;
+  margin-top: -16px;
+  margin-bottom: 5px;
+}
+
+.merchantLogin .main .loginInput .loginForm .forgetPassword {
+  margin-bottom: 1rem;
+}
+
+.merchantLogin .main .loginInput .loginForm .forgetPassword :last-child {
+  display: none;
+}
+
+.merchantLogin .main .loginInput .loginForm .forgetPassword a {
+  color: #787878;
+  margin-bottom: 1rem;
+}
+
+.merchantLogin .main .loginInput .loginForm .forgetPassword a:hover, .merchantLogin .main .loginInput .loginForm .forgetPassword a:focus {
+  color: #d44f44;
+}
+
+.merchantLogin .main .loginInput .loginForm .form-text {
+  color: red;
+}
+
+@media (max-width: 576px) {
+  .merchantLogin .side {
+    display: none;
+  }
+  .merchantLogin .main {
+    border-radius: 20px;
+  }
+  .merchantLogin .main .loginInput .loginForm .forgetPassword {
+    margin-bottom: 1rem;
+  }
+  .merchantLogin .main .loginInput .loginForm .forgetPassword :last-child {
+    display: initial;
+  }
+}
+/*# sourceMappingURL=MerchantLogin.css.map */

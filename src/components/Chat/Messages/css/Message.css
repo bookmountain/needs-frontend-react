@@ -1,0 +1,66 @@
+.messageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 5%;
+  margin-top: 20px;
+}
+
+.messageContainer p {
+  margin-bottom: 5px;
+}
+
+.messageContainer .messageBox {
+  background: #F3F3F3;
+  border: 1px solid #ccc;
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 230px;
+}
+
+.messageContainer .messageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 16px;
+  word-wrap: break-word;
+  color: #777;
+}
+
+.messageContainer .timestamp {
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+  font-size: 14px;
+}
+
+.messageContainer .customersText {
+  border-radius: 20px 20px 0 20px;
+  background-color: transparent;
+}
+
+.messageContainer .customersText p {
+  color: black;
+}
+
+.messageContainer .merchantText {
+  border-radius: 20px 20px 20px 0;
+  background-color: #cdcdcd;
+}
+
+.messageContainer .merchantText p {
+  color: black;
+}
+
+.justifyStart {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.justifyEnd {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=Message.css.map */

@@ -1,0 +1,73 @@
+$primary: #243a6e;
+$secondary: #0d5661;
+$danger: #d44f44;
+$dark: #6c757d;
+$font-black: #323232;
+$font-gray: #787878;
+$bg-gray: #cdcdcd;
+$bg-light: #f0f0f0;
+$shadow: #e7e7e7;
+
+//memcard (Edit)我的帳號
+
+.memcard {
+
+    .wrapper {
+        .icons {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        a:hover {
+            color: $danger;
+        }
+
+        a:active {
+            color: $danger;
+        }
+        
+        button {
+
+            margin-left: 20px;
+            
+            a{
+                color: $bg-light;
+            }
+            a:hover{
+                color: $bg-light;
+    }}
+    }
+
+    .container {
+        li {
+            
+            margin-top: 30px;
+            margin-left: 20px;
+
+            .item {
+                width: 80px;
+                height: 18px;
+                color: $font-gray;
+            }
+            // input{
+            //     width: 700px;
+            //     height: 30px;
+            //     color: $font-black;
+            // }
+
+            .item2 {
+                width: 100px;
+                height: 18px;
+                color: $font-gray;
+            }
+        }
+    }
+}
+
+
+
+
+
+//memcard (Edit)以上我的帳號

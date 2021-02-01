@@ -1,0 +1,311 @@
+$primary_color: #7367f0;
+$success_color: #28c76f;
+$danger_color: #ea5455;
+$warning_color: #ff9f43;
+$info_color: #00cfe8;
+$secondary_color: #e8cd00;
+$white: #ffffff;
+
+$primary_hover: #5344ed;
+$primary_hover_bg: #4839eb;
+$primary_focus: #7367f0;
+
+.contractsMng {
+  .row {
+    margin: 0;
+  }
+
+  h4,
+  h2,
+  h5,
+  h6,
+  p,
+  span,
+  li {
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.75;
+    letter-spacing: 1.2px;
+  }
+
+  .btn {
+    // font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1 rem;
+    line-height: 1.75;
+    letter-spacing: 1.2px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  }
+
+  .btn-primary {
+    color: $white;
+    background-color: $primary_color;
+    border-color: $primary_color;
+    &:hover {
+      box-shadow: 0 8px 25px -8px $primary_color;
+    }
+  }
+  .btn-light {
+    background-color: $white;
+  }
+
+  .main {
+    .toolsSec {
+      justify-content: space-between;
+      button {
+        margin-right: 10px;
+        width: 100px;
+        height: 50px;
+        &.actived {
+          background-color: $primary_color;
+          border-color: $primary_color;
+          color: $white;
+        }
+      }
+    }
+    .buttonSec {
+      justify-content: space-between;
+      padding: 0 20px;
+      .btn {
+        display: flex;
+        align-items: center;
+        height: 48px;
+        width: 48px;
+        &.actived {
+          background-color: $primary_color;
+          border-color: $primary_color;
+          color: $white;
+        }
+      }
+    }
+
+    .contractsList {
+      .checkbox {
+        text-align: center;
+        width: 5%;
+      }
+      .contractId {
+        width: 20%;
+      }
+      .title {
+        width: 15%;
+      }
+      .actions {
+        text-align: center;
+        width: 10%;
+        padding-right: 20px;
+      }
+      //標題
+      .titleSec {
+        margin: 30px 0;
+        flex-wrap: nowrap;
+      }
+
+      //內容
+      .detailsSection {
+        margin: 30px 0;
+        height: 90px;
+        flex-wrap: nowrap;
+        align-items: center;
+        background-color: $white;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+
+        &:hover {
+          transform: translateY(-4px);
+          transition: transform 0.3s ease 0s;
+          cursor: pointer;
+          position: relative;
+          z-index: 1;
+        }
+        .status {
+          font-size: 0.875rem;
+          color: $white;
+          text-align: center;
+          width: 80px;
+          border-radius: 50px;
+          line-height: 2;
+        }
+        .actions {
+          .btn-light {
+            box-shadow: none;
+            border: none;
+            background-color: $white;
+            &:hover {
+              transform: scale(1.2);
+              transition: transform 0.35s ease 0s;
+            }
+          }
+          .dropdown-menu {
+            min-width: 0;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .paginationSec {
+      margin-bottom: 30px;
+      justify-content: center;
+      ul.pagination {
+        margin-bottom: 0;
+        .page-link {
+          background-color: #e7e7e7;
+          color: #212529;
+          border: none;
+          line-height: 1.75;
+          &:hover {
+            color: $primary_color;
+          }
+          &:focus {
+            box-shadow: none;
+          }
+        }
+        .page-item.active .page-link {
+          background-color: $primary_color;
+          color: white;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+
+.contractsModal .modal-dialog .modal-content {
+  padding: 80px 10%;
+  // font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+  border-radius: 0;
+  .modal-header {
+    padding-top: 0;
+    border-color: #212529;
+    font-weight: 500;
+  }
+  .modal-footer {
+    padding: 30px 0 0 0;
+    justify-content: center;
+    border-color: #212529;
+
+    .btn {
+      // font-family: 'Noto Sans TC', sans-serif;
+      font-size: 1 rem;
+      line-height: 1.75;
+      letter-spacing: 1.2px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      width: 120px;
+      height: 48px;
+    }
+
+    .btn-primary {
+      color: $white;
+      background-color: $primary_color;
+      border-color: $primary_color;
+      margin-left: 20px;
+      &:hover {
+        box-shadow: 0 8px 25px -8px $primary_color;
+      }
+    }
+    .btn-outline-danger {
+      color: $danger_color;
+      border-color: $danger_color;
+      &:hover {
+        color: $white;
+        background-color: $danger_color;
+        box-shadow: 0 8px 25px -8px $danger_color;
+      }
+    }
+    span {
+      display: inline-block;
+      margin: 16px 0 0 0;
+      font-size: 0.875 rem;
+      color: #787878;
+      a {
+        color: $danger_color;
+      }
+    }
+  }
+  .modal-body {
+    padding: 40px 0;
+    .steps {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+      .steps-item {
+        display: flex;
+        .steps-item-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .steps-item-icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            color: $white;
+            background-color: #ccc;
+            text-align: center;
+            margin-bottom: 10px;
+          }
+          .steps-item-content {
+            color: #ccc;
+          }
+        }
+        .steps-item-trail {
+          width: 120px;
+          margin: 0 -15px;
+          height: 2px;
+          background-color: #ccc;
+          margin-top: 15px;
+        }
+        &.active > .steps-item-container > .steps-item-icon,
+        &.active > .steps-item-trail {
+          background-color: $primary_color;
+        }
+        &.active > .steps-item-container > .steps-item-content {
+          color: $primary_color;
+        }
+      }
+    }
+
+    .inputGroup {
+      font-size: 1rem;
+      padding: 0 10%;
+      .inputItem {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        span {
+          margin-right: 5px;
+        }
+      }
+      .card {
+        .card-header {
+          background-color: $primary_color;
+          color: $white;
+        }
+        .card-footer {
+          background-color: $white;
+          color: $danger_color;
+          padding: 20px;
+          div {
+            &:nth-child(2n) {
+              text-align: right;
+            }
+          }
+        }
+        .card-body {
+          div {
+            &:nth-child(2n) {
+              text-align: right;
+            }
+            p:last-child {
+              margin-bottom: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

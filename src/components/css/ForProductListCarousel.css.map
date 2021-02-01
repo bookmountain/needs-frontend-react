@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,uBADmB,CACnB,eAAe,CAAA;EACX,MAAM,EAAE,KAAK;CAMhB;;AARL,AAGQ,uBAHe,CACnB,eAAe,CAEX,GAAG,CAAA;EACC,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,eAAe,EAAE,KAAK;CACzB",
+    "sources": [
+        "../ProductList/ForProductListCarousel.scss"
+    ],
+    "names": [],
+    "file": "ForProductListCarousel.css"
+}

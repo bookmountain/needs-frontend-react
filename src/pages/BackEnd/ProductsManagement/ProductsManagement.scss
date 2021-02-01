@@ -1,0 +1,433 @@
+$primary_color: #7367f0;
+$success_color: #28c76f;
+$danger_color: #ea5455;
+$warning_color: #ff9f43;
+$info_color: #00cfe8;
+$secondary_color: #e8cd00;
+$white: #ffffff;
+
+$primary_hover: #5344ed;
+$primary_hover_bg: #4839eb;
+$primary_focus: #7367f0;
+
+.productsMng {
+  .row {
+    margin: 0;
+  }
+
+  h4,
+  h2,
+  h5,
+  h6,
+  p,
+  span,
+  li {
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.75;
+    letter-spacing: 1.2px;
+  }
+
+  .btn {
+    // font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1 rem;
+    line-height: 1.75;
+    letter-spacing: 1.2px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.16);
+  }
+
+  .btn-primary {
+    color: $white;
+    background-color: $primary_color;
+    border-color: $primary_color;
+    &:hover {
+      box-shadow: 0 8px 25px -8px $primary_color;
+    }
+  }
+
+  .btn-primary.dropdown-toggle {
+    color: $white;
+    background-color: $primary_color;
+    border-color: $primary_color;
+    &:active,
+    &:focus {
+      background-color: $primary_color;
+      border-color: $primary_color;
+      box-shadow: 0 8px 25px -8px $primary_color;
+    }
+  }
+
+  .btn-light {
+    background-color: $white;
+  }
+
+  .btn-light.dropdown-toggle {
+    background-color: $white;
+  }
+
+  .main {
+    .toolsSec {
+      justify-content: space-between;
+      button {
+        width: 100px;
+        height: 50px;
+        &.actived {
+          background-color: $primary_color;
+          border-color: $primary_color;
+          color: $white;
+        }
+        &:not(:last-child) {
+          margin-right: 10px;
+        }
+      }
+
+      .searchBar {
+        height: 50px;
+        width: 500px;
+        display: flex;
+        select.custom-select {
+          flex: 0 0 30%;
+          height: inherit;
+          border-radius: 50px 0 0 50px;
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          &:focus {
+            border-color: $primary_color;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+              0 0 8px $primary-focus;
+          }
+        }
+        input.form-control {
+          height: inherit;
+          border-radius: 0 50px 50px 0;
+          margin-right: 10px;
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          &:focus {
+            border-color: $primary_color;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+              0 0 8px $primary-focus;
+          }
+        }
+        select.custom-select.selectInp {
+          position: relative;
+          flex: 0 0 calc(100% - 30% - 60px);
+          // width: 1%;
+          // min-width: 0;
+          margin-bottom: 0;
+          margin-right: 10px;
+          height: inherit;
+          border-radius: 0 50px 50px 0;
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          &:focus {
+            border-color: $primary_color;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+              0 0 8px $primary-focus;
+          }
+          .parentCat {
+            background-color: #f5f5f5;
+            color: $primary_color;
+            font-weight: 500;
+            font-size: 17px;
+          }
+        }
+        .searchbtn {
+          width: 50px;
+          border-radius: 50%;
+        }
+      }
+    }
+    .buttonSec {
+      justify-content: space-between;
+      padding: 0 20px;
+      .btn {
+        display: flex;
+        align-items: center;
+        height: 48px;
+        width: 48px;
+        &.actived {
+          background-color: $primary_color;
+          border-color: $primary_color;
+          color: $white;
+        }
+      }
+      .dropdown-item {
+        &:focus {
+          outline: none;
+        }
+        &:active {
+          background-color: $primary_focus;
+        }
+      }
+    }
+
+    .productList {
+      .checkbox {
+        text-align: center;
+        width: 5%;
+      }
+      .blankbox {
+        width: 110px;
+      }
+      .productTitle {
+        width: 35%;
+        padding-right: 16px;
+      }
+      .specification {
+        width: 20%;
+      }
+      .title {
+        width: 8%;
+        padding-right: 16px;
+      }
+      .actions {
+        text-align: center;
+        width: 10%;
+        padding-right: 20px;
+      }
+      //標題
+      .titleSec {
+        margin: 30px 0;
+        flex-wrap: nowrap;
+      }
+
+      //內容
+      .detailsSection {
+        margin: 30px 0;
+        height: 148px;
+        flex-wrap: nowrap;
+        align-items: center;
+        background-color: $white;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        &:hover {
+          transform: translateY(-4px);
+          transition: transform 0.3s ease 0s;
+          cursor: pointer;
+        }
+        .actions {
+          .btn-light {
+            box-shadow: none;
+            border: none;
+            background-color: $white;
+            &:hover {
+              transform: scale(1.2);
+              transition: transform 0.35s ease 0s;
+            }
+          }
+          .dropdown-menu {
+            min-width: 0;
+            text-align: center;
+            .dropdown-item {
+              &:focus {
+                outline: none;
+              }
+              &:active {
+                background-color: $primary_focus;
+              }
+            }
+          }
+        }
+        .productImg {
+          height: 100px;
+          width: 100px;
+          margin-right: 10px;
+          img {
+            width: 100%;
+          }
+        }
+        .specification {
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 3;
+          overflow: hidden;
+          white-space: pre-line;
+          padding-right: 16px;
+        }
+      }
+    }
+    .paginationSec {
+      margin-bottom: 30px;
+      justify-content: center;
+      ul.pagination {
+        margin-bottom: 0;
+        .page-link {
+          background-color: #e7e7e7;
+          color: #212529;
+          border: none;
+          line-height: 1.75;
+          &:hover {
+            color: $primary_color;
+          }
+          &:focus {
+            box-shadow: none;
+          }
+        }
+        .page-item.active .page-link {
+          background-color: $primary_color;
+          color: white;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+
+.addProdModal {
+  .modal-dialog .modal-content {
+    padding: 80px 10%;
+    line-height: 1.75;
+    letter-spacing: 1.2px;
+    border-radius: 0;
+    .modal-header {
+      padding-top: 0;
+      border-color: #212529;
+      font-weight: 500;
+    }
+    .modal-footer {
+      padding: 30px 0 0 0;
+      justify-content: center;
+      border-color: #212529;
+
+      .btn {
+        // font-family: 'Noto Sans TC', sans-serif;
+        font-size: 1 rem;
+        line-height: 1.75;
+        letter-spacing: 1.2px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        width: 120px;
+        height: 48px;
+      }
+
+      .btn-primary {
+        color: $white;
+        background-color: $primary_color;
+        border-color: $primary_color;
+        margin-left: 20px;
+        &:hover {
+          box-shadow: 0 8px 25px -8px $primary_color;
+        }
+      }
+      .btn-outline-danger {
+        color: $danger_color;
+        border-color: $danger_color;
+        &:hover {
+          color: $white;
+          background-color: $danger_color;
+          box-shadow: 0 8px 25px -8px $danger_color;
+        }
+      }
+      .btn-secondary {
+        color: $white;
+        background-color: $warning_color;
+        border-color: $warning_color;
+        margin-left: 20px;
+        &:hover {
+          box-shadow: 0 8px 25px -8px $warning_color;
+        }
+      }
+    }
+    .modal-body {
+      padding: 40px 0;
+      .warningInfo {
+        color: $danger_color;
+        margin-bottom: 8px;
+        font-size: 14px;
+      }
+      .redStar {
+        color: $danger_color;
+      }
+      .form-control {
+        &:focus {
+          border-color: $primary_color;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+            0 0 8px $primary-focus;
+        }
+      }
+      .uploadImg {
+        color: $primary_color;
+        height: 330px;
+        border: 1px dashed $primary_color;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .form-label {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          position: relative;
+          svg {
+            margin-bottom: 1rem;
+          }
+          .preBox {
+            position: absolute;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            img {
+              display: block;
+              width: calc(25% - 24px);
+              margin: 12px 12px;
+              flex: 0;
+              height: auto;
+              box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.32);
+              border-radius: 6px;
+            }
+            .removebtn {
+              position: relative;
+              left: -25px;
+              top: 0px;
+              background-color: #fdeded;
+              padding: 3px;
+              border-radius: 100%;
+              box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.32);
+            }
+          }
+        }
+        label:hover {
+          cursor: pointer;
+        }
+        input[type='file' i] {
+          display: none;
+        }
+      }
+      .parentCat {
+        background-color: #f5f5f5;
+        color: $primary_color;
+        font-weight: 500;
+        font-size: 17px;
+      }
+
+      .input-group {
+        align-items: center;
+        .form-control {
+          margin-right: 10px;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}
+
+.ck .ck-editor__main .ck-editor__editable.ck-focused {
+  border-color: $primary_color;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px $primary-focus !important;
+}
+
+// .ck.ck-editor__main>.ck-editor__editable(.ck-focused)
+
+.alertModal .modal-dialog {
+  width: 250px;
+  .modal-body {
+    text-align: center;
+    padding: 40px;
+  }
+}

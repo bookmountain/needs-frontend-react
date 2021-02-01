@@ -1,0 +1,29 @@
+.ArticleShowInfo {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  width: 80%;
+  max-width: 500px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  background-color: #f0f0f0;
+  font-size: 24px;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.ArticleShowInfo .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ArticleShowInfo .content p {
+  -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+}
+/*# sourceMappingURL=ArticleShowInfo.css.map */

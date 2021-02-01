@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap");
+.member .font-s {
+  font-size: 1rem;
+}
+
+.member .font-m {
+  font-size: 1.5rem;
+}
+
+.member .font-l {
+  font-size: 2rem;
+}
+
+.member .maincard {
+  margin-bottom: 30px;
+  padding: 20px;
+  min-height: 570px;
+  border-radius: 10px;
+  border: solid 2px #d44f44;
+  -webkit-box-shadow: 6px 5px #e7e7e7;
+          box-shadow: 6px 5px #e7e7e7;
+}
+
+.member .maincard a {
+  color: #243a6e;
+}
+/*# sourceMappingURL=MemCard.css.map */

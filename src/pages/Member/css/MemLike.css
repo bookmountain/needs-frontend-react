@@ -1,0 +1,45 @@
+.memlike .wrapper .icons {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.memlike .selectLike {
+  cursor: pointer;
+}
+
+.memlike .likecard {
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+  border: solid 1px #787878;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.memlike .likecard .likemark {
+  width: 100px;
+  height: 100px;
+  border: solid 1px #999999;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+.memlike .likecard2 {
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+  border: solid 1px #999999;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.memlike .likecard2 .likemark {
+  width: 100px;
+  height: 100px;
+  border: solid 1px  #999999;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+/*# sourceMappingURL=MemLike.css.map */

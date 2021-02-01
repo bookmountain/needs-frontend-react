@@ -1,0 +1,140 @@
+//大家都要用的scss
+@import '../../../../styles/Backend/backend';
+
+// import自己的scss
+
+.sales-wrapper{
+    .card{
+        border: none;
+        .card-body{
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+        }
+    }
+    .key-card{
+        margin-top: 1rem;
+        padding: 13px 8px 16px 16px;
+        // border: 1px solid rgba(0, 0, 0, 0.125);
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        .key-title{
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        .key-number{
+            font-size: 20px;
+        }
+        .dollar-sign{
+            font-size: 14px;
+            margin-right: 5px;
+        }
+        .percentage-sign{
+            font-size: 14px;
+        }
+    }
+
+    .primary-top{
+        position: relative;
+        top: -2px;
+        border-top: 3px solid $primary_color;
+    }
+    .success-top{
+    position: relative;
+        top: -2px;
+        border-top: 3px solid $success_color;
+    }
+    .danger-top{
+    position: relative;
+        top: -2px;
+        border-top: 3px solid $danger_color;
+    }
+    .warning-top{
+    position: relative;
+        top: -2px;
+        border-top: 3px solid $warning_color;
+    }
+    .info-top{
+    position: relative;
+        top: -2px;
+        border-top: 3px solid $info_color;
+    }
+    .secondary-top{
+    position: relative;
+        top: -2px;
+        border-top: 3px solid $secondary_color;
+    }
+}
+
+.buyer-chart-wrapper{
+
+    height: 300px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    .apexcharts-legend{
+            display: flex;
+            position: absolute;
+            left: 0px;
+            top: 24px;
+            align-items: center;
+            justify-content: center;
+            .apexcharts-legend-series {
+                padding: 20px 0px;
+            }
+    }
+
+}
+.buyers-row {
+    height: calc(150px - 2rem);
+    display: flex;
+    align-items: center;
+    .buyer-wrapper{
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+        .buyers-state {
+            font-size: 16px;
+            font-weight: 300;
+        }
+        .buyers-question {   
+            margin-left: 10px;
+        }
+    }
+    .buyers-figures{
+        font-size: 24px;
+    }
+}
+.questionMark{
+    color: #787878;
+}
+
+.rank-wrapper{
+    .rank-tabs{
+        margin: 0;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #dee2e6;
+    }
+    .rank-header{
+        width: 100%;
+        background-color: #f6f6f6;
+        th:last-child{
+            float: right;
+        }
+    }
+    .rank-body{
+        td{
+            line-height: 1.5rem;
+            &:last-child {
+                float: right;
+            }
+        }
+
+    }
+    .tab-content{
+        height: 300px;
+    }
+}
+

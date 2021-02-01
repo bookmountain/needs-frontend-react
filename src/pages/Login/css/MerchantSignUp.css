@@ -1,0 +1,172 @@
+.merchantSignup {
+  min-height: calc(100vh - 80px);
+  width: 100%;
+  background: center center no-repeat;
+  background-image: url("../../../assets/img/login/loginbg.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.merchantSignup .btn {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1 rem;
+  font-weight: 300;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+  width: 196px;
+  height: 60px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.merchantSignup h2,
+.merchantSignup h4,
+.merchantSignup h5,
+.merchantSignup h6,
+.merchantSignup p,
+.merchantSignup span {
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+}
+
+.merchantSignup .wrap {
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.merchantSignup .wrap .side {
+  width: 300px;
+  position: relative;
+}
+
+.merchantSignup .wrap .side .logo {
+  width: 100%;
+}
+
+.merchantSignup .wrap .side .signUpimg {
+  width: 90%;
+  margin-left: 15px;
+}
+
+.merchantSignup .wrap .main {
+  height: 500px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.merchantSignup .wrap .main .signupInput h4 {
+  color: #243a6e;
+  margin-bottom: 16px;
+}
+
+.merchantSignup .wrap .main .signupInput .signupForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.merchantSignup .wrap .main .signupInput .signupForm input {
+  width: 300px;
+}
+
+.merchantSignup .wrap .main .signupInput .signupForm .alertmsg {
+  font-size: 0.875rem;
+  color: #d44f44;
+  margin-top: -16px;
+  margin-bottom: 5px;
+}
+
+.merchantSignup .wrap .main .signupInput .signupForm .btn {
+  margin-bottom: 16px;
+}
+
+.merchantSignup .wrap .main .signupInput p {
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+
+.merchantSignup .wrap .main .signupInput p a {
+  color: #d44f44;
+}
+
+.merchantSignup .wrap .main .signupInput p a:hover, .merchantSignup .wrap .main .signupInput p a:focus {
+  color: #d44f44;
+}
+
+@media (max-width: 576px) {
+  .merchantSignup .wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .merchantSignup .wrap .side {
+    display: none;
+  }
+}
+
+.signUpModal .modal-dialog {
+  text-align: center;
+  width: 400px;
+}
+
+.signUpModal .modal-dialog .modal-body {
+  margin: 50px;
+  padding: 0;
+}
+
+.signUpModal .modal-dialog .modal-body h4 {
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+  color: #243a6e;
+}
+
+.signUpModal .modal-dialog .modal-body .btn {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1 rem;
+  font-weight: 300;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+  width: 196px;
+  height: 60px;
+  border-radius: 3px;
+  text-align: center;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=MerchantSignUp.css.map */

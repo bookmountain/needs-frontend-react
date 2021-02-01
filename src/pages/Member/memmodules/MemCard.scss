@@ -1,0 +1,46 @@
+$primary: #243a6e;
+$secondary: #0d5661;
+$danger: #d44f44;
+$dark: #6c757d;
+$font-black: #323232;
+$font-gray: #787878;
+$bg-gray: #cdcdcd;
+$bg-light: #f0f0f0;
+$shadow: #e7e7e7;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap');
+
+.member {
+    
+    .font-s {
+        font-size: 1rem;
+    }
+
+    .font-m {
+        font-size: 1.5rem;
+    }
+
+    .font-l {
+        font-size: 2rem;
+    }
+
+    .maincard {
+        margin-bottom: 30px;
+        padding: 20px;
+        min-height: 570px;
+        border-radius: 10px;
+        border: solid 2px $danger;
+        box-shadow: 6px 5px $shadow;
+
+        a {
+            color: $primary;
+        }
+    }
+
+    //---memshop topbar
+    //-->參考：https://wcc723.github.io/css/2020/02/21/css-border/#
+
+
+}
+
+//memecoin  以上為Ecoin

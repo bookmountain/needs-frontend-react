@@ -1,0 +1,57 @@
+.sideFilter .filterItem {
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+
+.sideFilter .filterItem .title {
+  padding-left: 10px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.priceRange {
+  font-size: 16px;
+}
+
+.priceRange .showPrice label {
+  width: 50px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .priceRange .showPrice label {
+    width: 40px;
+  }
+}
+
+.priceRange .rc-slider-mark {
+  padding-top: 7px;
+}
+
+.priceRange .rc-slider-mark .rc-slider-mark-text {
+  font-size: 16px;
+}
+
+.priceRange .rc-slider-step span {
+  background-color: #6d7275;
+  border: none;
+}
+
+.priceRange .rc-slider-handle {
+  background-color: #6d7275;
+  border: none;
+}
+
+.priceRange .rc-slider-handle:focus {
+  border-color: #6d7275;
+}
+
+.priceRange .rc-slider-handle-dragging {
+  border-color: #6d7275 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.priceRange .rc-slider-track {
+  background-color: #6d7275;
+}
+/*# sourceMappingURL=SideFilter.css.map */

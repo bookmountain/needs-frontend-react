@@ -1,0 +1,192 @@
+.merberSignup {
+  min-height: calc(100vh - 80px);
+  width: 100%;
+  background: center center no-repeat;
+  background-image: url("../../../assets/img/login/loginbg.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.merberSignup .btn-secondary {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1 rem;
+  font-weight: 300;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+  width: 196px;
+  height: 60px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.merberSignup .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.merberSignup h2,
+.merberSignup h4,
+.merberSignup h5,
+.merberSignup h6,
+.merberSignup p,
+.merberSignup span {
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+}
+
+.merberSignup .side {
+  width: 300px;
+  height: 500px;
+  background-color: #0d5661;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 0 20px 20px 0;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.merberSignup .side .logo {
+  width: 100%;
+  margin: 70px auto;
+}
+
+.merberSignup .side .logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.merberSignup .side .text {
+  margin-bottom: 90px;
+}
+
+.merberSignup .side .text p {
+  margin-bottom: 3px;
+}
+
+.merberSignup .side a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.merberSignup .side a:hover {
+  color: #d44f44;
+}
+
+.merberSignup .main {
+  width: 500px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 20px 0 0 20px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  text-align: center;
+}
+
+.merberSignup .main .socialMedia {
+  margin-bottom: 1rem;
+}
+
+.merberSignup .main .socialMedia a {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.merberSignup .main .loginRole {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 30px 16px 0px;
+}
+
+.merberSignup .main .loginRole .btn-link {
+  color: #787878;
+  font-weight: 400;
+  height: 25px;
+  line-height: 0;
+}
+
+.merberSignup .main .loginRole button.actived {
+  color: #d44f44;
+  font-weight: 500;
+}
+
+.merberSignup .main .loginRole .seperator {
+  border-left: 1px solid #787878;
+  border-radius: 0px;
+}
+
+.merberSignup .main .signupInput h4 {
+  color: #0d5661;
+  margin-bottom: 16px;
+}
+
+.merberSignup .main .signupInput .signupForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.merberSignup .main .signupInput .signupForm input {
+  width: 300px;
+}
+
+.merberSignup .main .signupInput .signupForm .alertmsg {
+  font-size: 0.875rem;
+  color: #d44f44;
+  margin-top: -16px;
+  margin-bottom: 5px;
+}
+
+.merberSignup .main .signupInput .signupForm .btn {
+  margin-bottom: 16px;
+}
+
+.merberSignup .main .signupInput p {
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+
+.merberSignup .main .signupInput p a {
+  color: #d44f44;
+}
+
+.merberSignup .main .signupInput p a:hover, .merberSignup .main .signupInput p a:focus {
+  color: #d44f44;
+}
+
+@media (max-width: 576px) {
+  .merberSignup .wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .merberSignup .wrap .side {
+    display: none;
+  }
+}
+/*# sourceMappingURL=MemberSignUp.css.map */

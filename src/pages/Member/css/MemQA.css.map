@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAUA,AACA,MADM,CACN,gBAAgB,CAAC;EACb,WAAW,EAAE,GAAG;EAChB,OAAO,EAAE,WAAW;CAIrB;;AAPH,AAII,MAJE,CACN,gBAAgB,CAGZ,CAAC,CAAC;EACA,aAAa,EAAE,MAAM;CACtB",
+    "sources": [
+        "../memmodules/MemQA.scss"
+    ],
+    "names": [],
+    "file": "MemQA.css"
+}

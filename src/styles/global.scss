@@ -1,0 +1,123 @@
+$primary: #243a6e;
+$secondary: #0d5661;
+$danger: #d44f44;
+$dark: #6c757d;
+$font-black: #323232;
+$font-gray: #787878;
+$bg-gray: #cdcdcd;
+$bg-light: #f0f0f0;
+$shadow: #e7e7e7;
+$enable-caret: false;
+
+@import '~antd/dist/antd.css';
+@import '~bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap');
+
+.footerSec {
+  padding: 50px 5%;
+  background-color: $bg-light;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  &:before {
+    content: '';
+    background-color: #f0f0f0;
+    position: absolute;
+    margin-top: -50px;
+    height: 374px;
+    width: 100%;
+  }
+  .subSection {
+    font-size: 0.875rem;
+    width: 20%;
+    margin-bottom: 80px;
+    z-index: 1;
+    .title {
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style-type: none;
+      li {
+        margin-top: 0px;
+        margin-bottom: 5px;
+      }
+    }
+    .socialMediaIcon {
+      margin-right: 9px;
+      .path {
+        width: 20px;
+      }
+    }
+  }
+  .copyRight {
+    font-weight: 300;
+    font-size: 0.875rem;
+    margin-bottom: 0px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  .footerSec {
+    padding: 50px 5% 0 5%;
+    .subSection {
+      width: 100%;
+      margin-bottom: 0;
+      :last-child {
+        margin-bottom: 50px;
+      }
+      .title::after {
+        content: '+';
+        margin-left: 2px;
+      }
+      ul {
+        display: none;
+      }
+    }
+    &::before {
+      height: 310px;
+    }
+    .copyRight {
+      font-size: 12px;
+    }
+  }
+}
+
+.fixedBtn {
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  z-index: 10;
+  div {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+  .toTop {
+    background-color: #939393;
+    &:hover {
+      background-color: #6c757d;
+    }
+  }
+  .toCart {
+    background-color: #fc6b5a;
+    &:hover {
+      background-color: #d44f44;
+    }
+  }
+  .toSupport {
+    background-color: #37508d;
+    &:hover {
+      background-color: #243a6e;
+    }
+  }
+}

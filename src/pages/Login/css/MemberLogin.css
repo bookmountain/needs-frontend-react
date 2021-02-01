@@ -1,0 +1,201 @@
+.memberLogin {
+  min-height: calc(100vh - 80px);
+  width: 100%;
+  background: center center no-repeat;
+  background-image: url("../../../assets/img/login/loginbg.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.memberLogin .btn-secondary {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1 rem;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+  font-weight: 300;
+  width: 196px;
+  height: 60px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.memberLogin .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.memberLogin h2,
+.memberLogin h4,
+.memberLogin h5,
+.memberLogin h6,
+.memberLogin p,
+.memberLogin span {
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+}
+
+.memberLogin .side {
+  width: 300px;
+  height: 500px;
+  background-color: #0d5661;
+  border-radius: 20px 0 0 20px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  color: #ffffff;
+  text-align: center;
+}
+
+.memberLogin .side .logo {
+  margin: 70px auto;
+}
+
+.memberLogin .side .logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.memberLogin .side .text {
+  margin-bottom: 90px;
+}
+
+.memberLogin .side .text p {
+  margin-bottom: 3px;
+}
+
+.memberLogin .side a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.memberLogin .side a:hover {
+  color: #d44f44;
+}
+
+.memberLogin .main {
+  width: 500px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 0 20px 20px 0;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  text-align: center;
+}
+
+.memberLogin .main .loginRole {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 30px 16px 0px;
+}
+
+.memberLogin .main .loginRole .btn-link {
+  color: #787878;
+  font-weight: 400;
+  height: 25px;
+  line-height: 0;
+}
+
+.memberLogin .main .loginRole button.actived {
+  color: #d44f44;
+  font-weight: 500;
+}
+
+.memberLogin .main .loginRole .seperator {
+  border-left: 1px solid #787878;
+  border-radius: 0px;
+}
+
+.memberLogin .main .loginInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.memberLogin .main .loginInput h4 {
+  color: #0d5661;
+  margin-bottom: 16px;
+}
+
+.memberLogin .main .loginInput .socialMedia {
+  margin-bottom: 1rem;
+}
+
+.memberLogin .main .loginInput .socialMedia a {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.memberLogin .main .loginInput .form-control:focus {
+  border-color: #0d5661;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(13, 86, 97, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(13, 86, 97, 0.6);
+}
+
+.memberLogin .main .loginInput input {
+  width: 300px;
+}
+
+.memberLogin .main .loginInput .alertmsg {
+  font-size: 0.875rem;
+  color: #d44f44;
+  margin-top: -16px;
+  margin-bottom: 5px;
+}
+
+.memberLogin .main .loginInput .forgetPassword {
+  margin-bottom: 1rem;
+}
+
+.memberLogin .main .loginInput .forgetPassword :last-child {
+  display: none;
+}
+
+.memberLogin .main .loginInput .forgetPassword a {
+  color: #787878;
+  margin-bottom: 1rem;
+}
+
+.memberLogin .main .loginInput .forgetPassword a:hover, .memberLogin .main .loginInput .forgetPassword a:focus {
+  color: #d44f44;
+}
+
+@media (max-width: 576px) {
+  .memberLogin .side {
+    display: none;
+  }
+  .memberLogin .main {
+    border-radius: 20px;
+  }
+  .memberLogin .main .loginInput .loginForm .forgetPassword {
+    margin-bottom: 1rem;
+  }
+  .memberLogin .main .loginInput .loginForm .forgetPassword :last-child {
+    display: initial;
+  }
+}
+/*# sourceMappingURL=MemberLogin.css.map */

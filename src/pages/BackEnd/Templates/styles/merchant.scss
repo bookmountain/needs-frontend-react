@@ -1,0 +1,224 @@
+.Narrative {
+  h2,
+  h4,
+  h5,
+  h6,
+  p,
+  span {
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.75;
+    letter-spacing: 1.2px;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.875rem;
+  }
+  .sec1_background {
+    min-height: calc(65vh - 60px);
+    width: 100%;
+    background-image: url('../images/background_2.jpg');
+    background-size: cover;
+  }
+  .background-color {
+    background-color: #323232;
+    min-height: 35vh;
+    width: 59%;
+    padding-top: 35px;
+    position: absolute;
+  }
+  .sec1_avatar {
+    min-height: 35vh;
+    width: 60%;
+    padding-top: 35px;
+    position: relative;
+    h2,
+    h4 {
+      color: #fff;
+      line-height: 2rem;
+      padding-top: 0.5rem;
+    }
+    .avatar {
+      height: 180px;
+      width: 180px;
+      background-image: url('../images/head_1.png');
+      background-size: cover;
+      margin: 1rem 3rem 1rem 5rem;
+    }
+    .store-follower-btn {
+      margin-bottom: 1rem;
+      color: #fff;
+      text-align: center;
+      font-size: 16px;
+      line-height: 16px;
+      width: 100px;
+      height: 30px;
+      background-color: #d44f44;
+      border: none;
+      &:hover {
+        background-color: #d44f44;
+      }
+      &:active {
+        background-color: #d44f44;
+      }
+      &:focus {
+        background-color: #d44f44;
+      }
+    }
+  }
+  .sec1_info {
+    min-height: 35vh;
+    width: 45%;
+    padding: 5rem 1rem 2rem 7rem;
+    .row1 {
+      margin-bottom: 2rem;
+    }
+    .red {
+      color: #d44f44;
+    }
+  }
+}
+
+.Narrative {
+  .sec2 {
+    background-color: #f0f0f0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    .wrapper {
+      // width: 30%;
+      align-items: between;
+      justify-content: space-between;
+      margin-left: 100px;
+    }
+    .sml {
+      width: 300px;
+    }
+  }
+  .product-bg-pic {
+    height: 72vh;
+    width: 72vh;
+    background-image: url('../images/product_bg_1.jpg');
+    background-size: cover;
+    margin-right: 100px;
+  }
+  .product-sml-pic {
+    height: 300px;
+    width: 300px;
+    background-image: url('../images/product_bg_1.jpg');
+    background-size: cover;
+    // margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.2);
+  }
+  .sec3 {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+  }
+  .sec4 {
+    height: 60vh;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 100px;
+    background-color: #f0f0f0;
+
+    .activities-wrapper {
+      height: 40vh;
+      width: 60%;
+      border: 3px solid #8e8e8e;
+      position: relative;
+    }
+
+    .activities-img {
+      width: 35vh;
+      height: 35vh;
+      background-image: url('../images/active_pic.jpg');
+      background-size: cover;
+      position: absolute;
+      left: -150px;
+      top: 1rem;
+      box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .text {
+      // margin: auto;
+      margin-left: 250px;
+    }
+    .activity-btn {
+      margin-bottom: 1rem;
+      color: #fff;
+      text-align: center;
+      font-size: 16px;
+      line-height: 16px;
+      width: 278px;
+      height: 51px;
+      background-color: #243a6e;
+      border: none;
+      &:hover {
+        background-color: #243a6e;
+      }
+      &:active {
+        background-color: #243a6e;
+      }
+      &:focus {
+        background-color: #243a6e;
+      }
+    }
+  }
+  .sec5 {
+    height: 40vh;
+    width: 100%;
+    background-color: #fff;
+    padding-left: 100px;
+  }
+  .underline-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .brandStory_img {
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('../images/about_pic.jpg');
+  }
+  .underline {
+    border-bottom: 3px solid #d44f44;
+    width: 150px;
+  }
+  .text-wrapper {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+  }
+  // .adjust{
+  //   margin-left: 130px;
+  // }
+  .btn {
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    height: 50px;
+    background-color: #d44f44;
+    border: none;
+    &:hover {
+      background-color: #d44f44;
+    }
+    &:active {
+      background-color: #d44f44;
+    }
+    &:focus {
+      background-color: #d44f44;
+    }
+  }
+}

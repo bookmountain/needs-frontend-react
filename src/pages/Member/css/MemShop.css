@@ -1,0 +1,54 @@
+.memshop .wrapper .icons {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.memshop .wrapper a {
+  color: #d44f44;
+}
+
+.memshop .wrapper a .icons {
+  margin-top: -2px;
+  margin-left: 10px;
+}
+
+.shoppinglist .listhead {
+  width: 850px;
+  height: 50px;
+  background-color: #cdcdcd;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .shoppinglist .listhead {
+    width: 350px;
+    height: 50px;
+  }
+}
+
+.shoppinglist .listhead th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.shoppinglist .listhead td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.shoppinglist .box {
+  width: 90px;
+  height: 90px;
+  background-color: blue;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .shoppinglist .box {
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=MemShop.css.map */

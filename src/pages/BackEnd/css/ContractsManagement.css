@@ -1,0 +1,371 @@
+.contractsMng .row {
+  margin: 0;
+}
+
+.contractsMng h4,
+.contractsMng h2,
+.contractsMng h5,
+.contractsMng h6,
+.contractsMng p,
+.contractsMng span,
+.contractsMng li {
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+}
+
+.contractsMng .btn {
+  font-size: 1 rem;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.contractsMng .btn-primary {
+  color: #ffffff;
+  background-color: #7367f0;
+  border-color: #7367f0;
+}
+
+.contractsMng .btn-primary:hover {
+  -webkit-box-shadow: 0 8px 25px -8px #7367f0;
+          box-shadow: 0 8px 25px -8px #7367f0;
+}
+
+.contractsMng .btn-light {
+  background-color: #ffffff;
+}
+
+.contractsMng .main .toolsSec {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contractsMng .main .toolsSec button {
+  margin-right: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+.contractsMng .main .toolsSec button.actived {
+  background-color: #7367f0;
+  border-color: #7367f0;
+  color: #ffffff;
+}
+
+.contractsMng .main .buttonSec {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+}
+
+.contractsMng .main .buttonSec .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px;
+  width: 48px;
+}
+
+.contractsMng .main .buttonSec .btn.actived {
+  background-color: #7367f0;
+  border-color: #7367f0;
+  color: #ffffff;
+}
+
+.contractsMng .main .contractsList .checkbox {
+  text-align: center;
+  width: 5%;
+}
+
+.contractsMng .main .contractsList .contractId {
+  width: 20%;
+}
+
+.contractsMng .main .contractsList .title {
+  width: 15%;
+}
+
+.contractsMng .main .contractsList .actions {
+  text-align: center;
+  width: 10%;
+  padding-right: 20px;
+}
+
+.contractsMng .main .contractsList .titleSec {
+  margin: 30px 0;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.contractsMng .main .contractsList .detailsSection {
+  margin: 30px 0;
+  height: 90px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.contractsMng .main .contractsList .detailsSection:hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  -webkit-transition: -webkit-transform 0.3s ease 0s;
+  transition: -webkit-transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.contractsMng .main .contractsList .detailsSection .status {
+  font-size: 0.875rem;
+  color: #ffffff;
+  text-align: center;
+  width: 80px;
+  border-radius: 50px;
+  line-height: 2;
+}
+
+.contractsMng .main .contractsList .detailsSection .actions .btn-light {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  background-color: #ffffff;
+}
+
+.contractsMng .main .contractsList .detailsSection .actions .btn-light:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: -webkit-transform 0.35s ease 0s;
+  transition: -webkit-transform 0.35s ease 0s;
+  transition: transform 0.35s ease 0s;
+  transition: transform 0.35s ease 0s, -webkit-transform 0.35s ease 0s;
+}
+
+.contractsMng .main .contractsList .detailsSection .actions .dropdown-menu {
+  min-width: 0;
+  text-align: center;
+}
+
+.contractsMng .main .paginationSec {
+  margin-bottom: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contractsMng .main .paginationSec ul.pagination {
+  margin-bottom: 0;
+}
+
+.contractsMng .main .paginationSec ul.pagination .page-link {
+  background-color: #e7e7e7;
+  color: #212529;
+  border: none;
+  line-height: 1.75;
+}
+
+.contractsMng .main .paginationSec ul.pagination .page-link:hover {
+  color: #7367f0;
+}
+
+.contractsMng .main .paginationSec ul.pagination .page-link:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contractsMng .main .paginationSec ul.pagination .page-item.active .page-link {
+  background-color: #7367f0;
+  color: white;
+  border-radius: 5px;
+}
+
+.contractsModal .modal-dialog .modal-content {
+  padding: 80px 10%;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+  border-radius: 0;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-header {
+  padding-top: 0;
+  border-color: #212529;
+  font-weight: 500;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-footer {
+  padding: 30px 0 0 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-color: #212529;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-footer .btn {
+  font-size: 1 rem;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  width: 120px;
+  height: 48px;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-footer .btn-primary {
+  color: #ffffff;
+  background-color: #7367f0;
+  border-color: #7367f0;
+  margin-left: 20px;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-footer .btn-primary:hover {
+  -webkit-box-shadow: 0 8px 25px -8px #7367f0;
+          box-shadow: 0 8px 25px -8px #7367f0;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-footer .btn-outline-danger {
+  color: #ea5455;
+  border-color: #ea5455;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-footer .btn-outline-danger:hover {
+  color: #ffffff;
+  background-color: #ea5455;
+  -webkit-box-shadow: 0 8px 25px -8px #ea5455;
+          box-shadow: 0 8px 25px -8px #ea5455;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-footer span {
+  display: inline-block;
+  margin: 16px 0 0 0;
+  font-size: 0.875 rem;
+  color: #787878;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-footer span a {
+  color: #ea5455;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body {
+  padding: 40px 0;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 40px;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .steps .steps-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .steps .steps-item .steps-item-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .steps .steps-item .steps-item-container .steps-item-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: #ccc;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .steps .steps-item .steps-item-container .steps-item-content {
+  color: #ccc;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .steps .steps-item .steps-item-trail {
+  width: 120px;
+  margin: 0 -15px;
+  height: 2px;
+  background-color: #ccc;
+  margin-top: 15px;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .steps .steps-item.active > .steps-item-container > .steps-item-icon,
+.contractsModal .modal-dialog .modal-content .modal-body .steps .steps-item.active > .steps-item-trail {
+  background-color: #7367f0;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .steps .steps-item.active > .steps-item-container > .steps-item-content {
+  color: #7367f0;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .inputGroup {
+  font-size: 1rem;
+  padding: 0 10%;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .inputGroup .inputItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .inputGroup .inputItem span {
+  margin-right: 5px;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .inputGroup .card .card-header {
+  background-color: #7367f0;
+  color: #ffffff;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .inputGroup .card .card-footer {
+  background-color: #ffffff;
+  color: #ea5455;
+  padding: 20px;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .inputGroup .card .card-footer div:nth-child(2n) {
+  text-align: right;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .inputGroup .card .card-body div:nth-child(2n) {
+  text-align: right;
+}
+
+.contractsModal .modal-dialog .modal-content .modal-body .inputGroup .card .card-body div p:last-child {
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=ContractsManagement.css.map */

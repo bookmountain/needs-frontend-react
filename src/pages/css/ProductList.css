@@ -1,0 +1,20 @@
+.productlist .breadcrumb {
+  background-color: #f0f0f0;
+  margin: 40px 0;
+}
+
+.productlist .breadcrumb a {
+  color: #323232;
+}
+
+.productlist .sideFilter {
+  width: 165px;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .productlist .sideFilter {
+    display: none;
+  }
+}
+/*# sourceMappingURL=ProductList.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAA;EACN,MAAM,EAAE,IAAI;CAKf;;AAND,AAGI,UAHM,CAGN,0BAA0B,CAAA;EACtB,MAAM,EAAE,KAAK;CAChB;;AAEL,AACI,cADU,CACV,QAAQ,CAAA;EACJ,MAAM,EAAE,MAAM;CACjB",
+    "sources": [
+        "../Article/CreateArticle.scss"
+    ],
+    "names": [],
+    "file": "CreateArticle.css"
+}

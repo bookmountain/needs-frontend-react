@@ -1,0 +1,255 @@
+@-webkit-keyframes growDown {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  80% {
+    -webkit-transform: scaleY(1.1);
+            transform: scaleY(1.1);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+@keyframes growDown {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  80% {
+    -webkit-transform: scaleY(1.1);
+            transform: scaleY(1.1);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+.navBlock .navbar.navbar-light.NavProdDetails {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navBlock {
+  height: 80px;
+  position: relative;
+  z-index: 10;
+}
+
+.navBlock .navbar.navbar-light {
+  width: 100%;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+  -webkit-box-shadow: 0px 3px 7px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 7px 0 rgba(0, 0, 0, 0.1);
+  padding: 0 9.375%;
+}
+
+.navBlock .navbar.navbar-light .nav-logo {
+  padding: 20px 0;
+}
+
+.navBlock .navbar.navbar-light .nav-logo img {
+  width: 150px;
+  margin-top: -5px;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav a {
+  color: #323232;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav a .separator {
+  border-left: 1px solid #323232;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav a .cart-icon {
+  color: #d44f44;
+  margin-top: -0.2rem;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav a .cart-amount {
+  color: #d44f44;
+  font-weight: 400;
+  padding-left: 0.5rem;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav .memberActions,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions {
+  position: relative;
+  font-size: 16px;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav .memberActions .memberAvatar,
+.navBlock .navbar.navbar-light .navbar-nav .memberActions .merchantAvatar,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions .memberAvatar,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions .merchantAvatar,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions .memberAvatar,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions .merchantAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav .memberActions .memberAvatar img,
+.navBlock .navbar.navbar-light .navbar-nav .memberActions .merchantAvatar img,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions .memberAvatar img,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions .merchantAvatar img,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions .memberAvatar img,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions .merchantAvatar img {
+  width: 100%;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav .memberActions .needsAvatar,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions .needsAvatar,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions .needsAvatar {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav .memberActions .needsAvatar img,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions .needsAvatar img,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions .needsAvatar img {
+  width: 100%;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav .memberActions .actionsList,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions .actionsList,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions .actionsList {
+  border-radius: 5px;
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 7px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 3px 7px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #f0f0f0;
+  position: absolute;
+  right: 0;
+  display: none;
+  width: 150px;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav .memberActions .actionsList .actionsItem,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions .actionsList .actionsItem,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions .actionsList .actionsItem {
+  letter-spacing: 1.2px;
+  line-height: 1;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav .memberActions .actionsList .actionsItem a,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions .actionsList .actionsItem a,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions .actionsList .actionsItem a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav .memberActions .actionsList .actionsItem a:hover,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions .actionsList .actionsItem a:hover,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions .actionsList .actionsItem a:hover {
+  color: #d44f44;
+  text-decoration: none;
+  background-color: #e7e7e7;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav .memberActions .actionsList .actionsItem a span,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions .actionsList .actionsItem a span,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions .actionsList .actionsItem a span {
+  padding: 8px 16px;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav .memberActions .actionsList .actionsItem.memberName,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions .actionsList .actionsItem.memberName,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions .actionsList .actionsItem.memberName {
+  color: #0d5661;
+  padding: 8px 16px;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav .memberActions .actionsList .actionsItem.merchantName,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions .actionsList .actionsItem.merchantName,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions .actionsList .actionsItem.merchantName {
+  color: #243a6e;
+  padding: 8px 16px;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav .memberActions .actionsList .actionsItem.needsName,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions .actionsList .actionsItem.needsName,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions .actionsList .actionsItem.needsName {
+  color: #243a6e;
+  padding: 8px 16px;
+}
+
+.navBlock .navbar.navbar-light .navbar-nav .memberActions:hover .actionsList,
+.navBlock .navbar.navbar-light .navbar-nav .merchantActions:hover .actionsList,
+.navBlock .navbar.navbar-light .navbar-nav .needsActions:hover .actionsList {
+  display: block;
+  -webkit-animation: growDown 350ms ease-in-out forwards;
+          animation: growDown 350ms ease-in-out forwards;
+  -webkit-transform-origin: top center;
+          transform-origin: top center;
+}
+
+.navbar-nav .prodList {
+  position: relative;
+}
+
+.navbar-nav .prodList:hover .nav-prod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: growDown 400ms ease-in-out forwards;
+          animation: growDown 400ms ease-in-out forwards;
+  -webkit-transform-origin: top center;
+          transform-origin: top center;
+}
+
+.navbar-nav .prodList .nav-prod {
+  font-family: 'Noto Sans TC', sans-serif;
+  letter-spacing: 1.2px;
+  line-height: 1.75;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 32px 32px 16px 32px;
+  -webkit-box-shadow: 3px 3px 7px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 3px 7px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  display: none;
+  grid-gap: 12px;
+  min-width: 584px;
+}
+
+.navbar-nav .prodList .nav-prod .catItem {
+  list-style: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 120px;
+          flex: 1 1 120px;
+  margin-bottom: 16px;
+}
+
+.navbar-nav .prodList .nav-prod .catItem .parentCat {
+  color: #0d5661;
+  font-weight: 400;
+}
+
+.navbar-nav .prodList .nav-prod .catItem .childCat a {
+  font-size: 0.875rem;
+  color: #323232;
+  text-decoration: none;
+}
+
+.navbar-nav .prodList .nav-prod .catItem .childCat a:hover {
+  color: #d44f44;
+  border-bottom: 1px solid #d44f44;
+}
+/*# sourceMappingURL=navbar.css.map */

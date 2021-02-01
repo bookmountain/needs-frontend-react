@@ -1,0 +1,128 @@
+.advantageSec h4,
+.advantageSec span {
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+}
+
+.advantageSec .secTitle {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.advantageSec .secTitle h4 {
+  font-size: 1.5 rem;
+  font-weight: 500;
+  color: #323232;
+}
+
+.advantageSec .secTitle span {
+  font-size: 1 rem;
+  font-weight: 300;
+  color: #787878;
+  margin-top: 13px;
+}
+
+.advantageSec div.advantageContent {
+  color: #243a6e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 300px;
+}
+
+.advantageSec div.advantageContent .advImg {
+  width: 30%;
+}
+
+.advantageSec div.advantageContent .advImg img {
+  width: 100%;
+}
+
+.advantageSec div.advantageContent .text {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.advantageSec div.advantageContent .text h5 {
+  color: #243a6e;
+}
+
+.advantageSec div.advantageContent .text p {
+  color: #787878;
+  margin-bottom: 3px;
+}
+
+.advantageSec div.advantageContent .order {
+  font-size: 12vw;
+}
+
+.advantageSec div.advantageContent:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.advantageSec div.advantageContent:nth-child(odd) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.advantageSec div.advantageContent:nth-child(odd) .text {
+  text-align: right;
+}
+
+@media (max-width: 1000px) {
+  .advantageSec div.advantageContent .text h5 {
+    font-size: 20px;
+  }
+  .advantageSec div.advantageContent .text p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .advantageSec div.advantageContent {
+    height: 200px;
+  }
+  .advantageSec div.advantageContent .advImg {
+    width: 40%;
+  }
+  .advantageSec div.advantageContent .text h5 {
+    font-size: 16px;
+  }
+  .advantageSec div.advantageContent .text p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .advantageSec div.advantageContent {
+    height: 250px;
+  }
+  .advantageSec div.advantageContent .advImg {
+    width: 50%;
+  }
+  .advantageSec div.advantageContent .order {
+    font-size: 20vw;
+  }
+  .advantageSec div.advantageContent .text {
+    margin-top: -30px;
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+  .advantageSec div.advantageContent:nth-child(odd) .text {
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=investmentAdvantage.css.map */

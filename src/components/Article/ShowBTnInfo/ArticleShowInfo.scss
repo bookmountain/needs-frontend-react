@@ -1,0 +1,30 @@
+$primary: #243a6e;
+$secondary: #0d5661;
+$danger: #d44f44;
+$dark: #6c757d;
+$font-black: #323232;
+$font-gray: #787878;
+$bg-gray: #cdcdcd;
+$bg-light: #f0f0f0;
+$shadow: #e7e7e7;
+
+.ArticleShowInfo{
+    position: absolute;
+    top:25%;
+    left:40%;
+    width: 80%;
+    max-width: 500px;
+    transition: all .3s ease;
+    background-color: $bg-light;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 2;
+    .content{
+        display: flex;
+        justify-content: space-between;
+        p{
+            transform: translateY(8px);
+        }
+    }
+}

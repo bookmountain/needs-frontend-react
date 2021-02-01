@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAA;EACb,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,IAAI;EACnB,KAAK,EAAE,OAAO;CAQjB;;AAZD,AAKI,iBALa,CAKb,QAAQ,CAAA;EACJ,SAAS,EAAE,IAAI;CAKlB;;AAXL,AAOQ,iBAPS,CAKb,QAAQ,CAEJ,GAAG,CAAA;EACC,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "../Article/ArticleRecomment.scss"
+    ],
+    "names": [],
+    "file": "ArticleRecomment.css"
+}

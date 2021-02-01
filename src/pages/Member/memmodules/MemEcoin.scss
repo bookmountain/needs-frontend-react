@@ -1,0 +1,55 @@
+$primary: #243a6e;
+$secondary: #0d5661;
+$danger: #d44f44;
+$dark: #6c757d;
+$font-black: #323232;
+$font-gray: #787878;
+$bg-gray: #cdcdcd;
+$bg-light: #f0f0f0;
+$shadow: #e7e7e7;
+
+//memecoin
+.memecoin {
+    .wrapper {
+        .icons {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    }
+
+    .coincard {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        border: solid 1px $font-gray;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 4px 3px $shadow;
+
+        .one {
+            color: $secondary;
+        }
+
+        .two {
+            color: $primary;
+        }
+
+        .three {
+            color: $danger;
+        }
+    }
+
+    .explain {
+        margin-top: 30px;
+
+        p {
+            color: $font-gray;
+        }
+    }
+
+
+}
+
+//memecoin  以上為Ecoin

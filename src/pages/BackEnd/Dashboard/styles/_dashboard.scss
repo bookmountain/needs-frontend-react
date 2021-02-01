@@ -1,0 +1,292 @@
+.dashboard-wrapper{
+    .chart-card {
+        width: 100%;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+        background-color: #fff;
+        justify-content: start;
+    }
+    
+    .chart-card-header {
+        padding: 1.5rem 1.5rem 0;
+    
+        .circle-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            text-align: center;
+    
+            i {
+                line-height: 50px;
+                font-size: 20px;
+            }
+        }
+    
+        .icon-social {
+            background-color: rgba(115, 103, 240, 0.2);
+    
+            i {
+                color: $primary_color;
+            }
+        }
+    
+        .icon-brose {
+            background-color: rgba(40, 199, 111, 0.2);
+    
+            i {
+                color: $success_color;
+            }
+        }
+    
+        .icon-sale {
+            background-color: rgba(234, 84, 85, 0.2);
+    
+            i {
+                color: $danger_color;
+            }
+        }
+    
+        .icon-money {
+            background-color: rgba(255, 159, 67, 0.2);
+    
+            i {
+                color: $warning_color;
+            }
+        }
+    }
+    
+    .chart-figures {
+        font-weight: 700;
+        font-size: 1.74rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.2;
+    }
+    
+    .chart-title {
+        color: #565656;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 1.5rem;
+    }
+    
+    .review{
+        .review-score{
+            text-align: center;
+            font-size: 48px;
+    
+        }
+        .review-star{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 20px;
+        }
+        .review-chart{
+            width: 250px;
+            margin: 0 auto;
+        }
+    }
+    
+    .revenue {
+        padding: 1.5rem 1.5rem 0;
+    
+        .revenue-title {
+            font-weight: 500;
+            letter-spacing: 0.05rem;
+            font-size: 1.32rem;
+            padding-bottom: 1.5rem;
+            line-height: 1.2;
+            color: #2c2c2c;
+        }
+    
+        .month-title {
+            font-weight: 600;
+            line-height: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+    
+        .monthly-income {
+            display: inline-block;
+        }
+    
+        .this-month-income {
+            font-size: 1.74rem;
+            color: #28c76f !important;
+        }
+    
+        .last-month-income {
+            font-size: 1.74rem;
+            color: #2c2c2c;
+        }
+    }
+    
+    // .goal-box {
+    //     margin-top: 40px;
+    //     padding: 1rem;
+    //     text-align: center;
+    
+    //     .goal-figures {
+    //         font-weight: 700;
+    //         font-size: 1.5rem;
+    //         line-height: 1.5rem;
+    //     }
+    // }
+    
+    // .goal-completed {
+    //     border-top: 1px solid #ededed;
+    //     border-right: 1px solid #ededed;
+    // }
+    
+    // .goal-in-progress {
+    //     border-top: 1px solid #ededed;
+    // }
+    
+    .dispatch-status{
+        .card {
+        border-radius: 0.5rem;
+        border: none;
+        .card-body {
+            padding: 1.5rem;
+    
+            .card-title {
+                font-size: 1.32rem;
+            }
+        }
+    
+        .list-group-item {
+            position: relative;
+            display: block;
+            padding: .75rem 1.25rem;
+            background-color: #fff;
+            border: none;
+    
+            &::before {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 5%;
+                height: 1px;
+                width: 90%;
+                border-bottom: 1px solid rgba(0, 0, 0, .125);
+            }
+    
+            .badge {
+                line-height: 16px;
+            }
+        }
+    }
+    }
+    
+    .full-calendar,
+    .dispatch-status {
+        .card {
+            margin: 0;
+        }
+    }
+    
+    .delivery-data {
+        border-radius: 0.5rem;
+    
+        .fa-circle {
+            font-size: 12px;
+            margin-right: 5px;
+        }
+    }
+    
+    .badge-primary {
+        background-color: $primary_color;
+    }
+    
+    .badge-success {
+        background-color: $success_color;
+    }
+    
+    .badge-danger {
+        background-color: $danger_color;
+    }
+    
+    .badge-warning {
+        background-color: $warning_color;
+    }
+    
+    .circle-preparing {
+        color: $primary_color;
+    }
+    
+    .circle-shipped {
+        color: $success_color;
+    }
+    
+    
+    .circle-arrived {
+        color: $danger_color;
+    }
+    
+    .circle-received {
+        color: $warning_color;
+    }
+
+    .circle-refunding {
+        color: $info_color;
+    }
+
+    .circle-refunded {
+        color: $secondary_color;
+    }
+
+    .circle-not-shipped {
+        color: #6C757D;
+    }
+    
+    p{
+        margin-bottom: 0;
+    }
+    
+    .dashboard-ads {
+        margin-top: 1.75rem;
+    
+        .ad-img {
+            width: 100%;
+        }
+    
+        .ad-info {
+            margin-top: 20px;
+            align-items: center;
+    
+            .ad-info-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 15px;
+    
+                .ad-title {
+                    font-size: 18px;
+                }
+    
+                .ad-type {
+                    color: #bbb;
+                }
+            }
+    
+            .ad-duration {
+                float: left;
+                font-size: 14px;
+                color: #787878;
+            }
+    
+            .ad-more-info {
+                float: right;
+                // margin-top: 20px;
+            }
+        }
+    
+    
+    }
+    .card{
+        width: 100%;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+        background-color: #fff;
+    }
+}

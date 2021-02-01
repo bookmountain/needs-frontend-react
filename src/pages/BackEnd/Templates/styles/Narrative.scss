@@ -1,0 +1,242 @@
+.Narrative {
+  h2,
+  h4,
+  h5,
+  h6,
+  p,
+  span {
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.75;
+    letter-spacing: 1.2px;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.875rem;
+  }
+  .sec1_background {
+    min-height: calc(65vh - 80px);
+    width: 100%;
+    background-image: url('../images/default-background.png');
+    background-size: cover;
+    // position: absolute;
+  }
+
+  .bg-text {
+    // background-color:#323232;
+    // opacity: .8;
+    position: absolute;
+    top: 450px;
+    left: 210px;
+  }
+  .bg-font {
+    color: white;
+    font-size: 120px;
+    text-shadow: 2px 2px #323232;
+  }
+
+  .background-color {
+    // background-color:#323232;
+    min-height: 35vh;
+    width: 57%;
+    padding-top: 45px;
+    position: absolute;
+  }
+  .sec1_avatar {
+    min-height: 35vh;
+    width: 60%;
+    padding-top: 50px;
+    position: relative;
+    h2,
+    h4 {
+      color: #fff;
+      line-height: 2rem;
+      padding-top: 0.5rem;
+    }
+    .avatar {
+      height: 180px;
+      width: 180px;
+      background-image: url('../images/pommedepin111_300x300.jpg');
+      background-size: cover;
+      margin: 1rem 3rem 1rem 3rem;
+    }
+    .store-follower-btn {
+      margin-bottom: 1rem;
+      color: #fff;
+      text-align: center;
+      font-size: 16px;
+      line-height: 16px;
+      width: 100px;
+      height: 30px;
+      background-color: #d44f44;
+      border: none;
+      &:hover {
+        background-color: #d44f44;
+      }
+      &:active {
+        background-color: #d44f44;
+      }
+      &:focus {
+        background-color: #d44f44;
+      }
+    }
+  }
+  .sec1_info {
+    min-height: 35vh;
+    width: 43%;
+    padding: 55px 0rem 0rem 7rem;
+    .row1 {
+      margin-bottom: 2rem;
+    }
+    .red {
+      color: #d44f44;
+    }
+  }
+}
+
+.Narrative {
+  .sec2 {
+    background-color: #f0f0f0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    .wrapper {
+      // width: 30%;
+      align-items: between;
+      justify-content: space-between;
+      margin-left: 100px;
+    }
+    .sml {
+      width: 300px;
+    }
+  }
+  .product-bg-pic {
+    height: 60vh;
+    width: 60vh;
+    // background-image: url('../images/default-img.png');
+    background-size: cover;
+    margin-right: 30px;
+  }
+  .product-sml-pic {
+    height: 300px;
+    width: 300px;
+    // background-image: url('../images/default-img.png');
+    background-size: cover;
+    // margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 7px 7px 7px 2px rgba(148, 142, 142, 0.2);
+  }
+  .sec3 {
+    // height: 100vh;
+    width: 100%;
+    background-color: #fff;
+  }
+  .sec4 {
+    // height: 60vh;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    background-color: #f0f0f0;
+
+    .activities-wrapper {
+      height: 400px;
+      width: 60%;
+      border: 3px solid #8e8e8e;
+      padding-right: 40px;
+      position: relative;
+    }
+    .activities-img {
+      width: 350px;
+      height: 350px;
+      background-image: url('../images/default-img.png');
+      background-size: cover;
+      position: absolute;
+      left: -150px;
+      top: 1rem;
+      box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .text {
+      // margin: auto;
+      margin-left: 250px;
+    }
+    .activity-btn {
+      margin-bottom: 1rem;
+      color: #fff;
+      text-align: center;
+      font-size: 16px;
+      line-height: 16px;
+      width: 278px;
+      height: 51px;
+      background-color: #243a6e;
+      border: none;
+      &:hover {
+        background-color: #243a6e;
+      }
+      &:active {
+        background-color: #243a6e;
+      }
+      &:focus {
+        background-color: #243a6e;
+      }
+    }
+  }
+  .sec5 {
+    // height: 40vh;
+    width: 100%;
+    background-color: #fff;
+  }
+  .underline-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .brandStory_img {
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    background-size: cover;
+    // background-image: url('../images/default-img.png');
+  }
+  .underline {
+    border-bottom: 3px solid #d44f44;
+    width: 150px;
+  }
+  .text-wrapper {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+  }
+  .adjust {
+    margin-left: 130px;
+    margin-bottom: 70px;
+  }
+  .btn {
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    height: 50px;
+    background-color: #d44f44;
+    border: none;
+    &:hover {
+      background-color: #d44f44;
+    }
+    &:active {
+      background-color: #d44f44;
+    }
+    &:focus {
+      background-color: #d44f44;
+    }
+  }
+}

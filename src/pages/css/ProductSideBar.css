@@ -1,0 +1,50 @@
+.allCategories {
+  font-size: 16px;
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+
+.classItem {
+  font-size: 16px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.classItem .classLink {
+  color: #7f7f7f;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.classItem .classLink .active {
+  color: red;
+}
+
+.classItem .classLink::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.classItem .classLink:hover::after {
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+/*# sourceMappingURL=ProductSideBar.css.map */

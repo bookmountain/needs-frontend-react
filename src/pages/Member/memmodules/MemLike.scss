@@ -1,0 +1,58 @@
+$primary: #243a6e;
+$secondary: #0d5661;
+$danger: #d44f44;
+$dark: #6c757d;
+$font-black: #323232;
+$font-gray: #787878;
+$bg-gray: #cdcdcd;
+$bg-light: #f0f0f0;
+$shadow: #e7e7e7;
+//memlike
+.memlike {
+    .wrapper {
+        .icons {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    }
+    .selectLike{
+        cursor: pointer;
+    }
+
+    .likecard {
+        width: 150px;
+        height: 200px;
+        margin: 10px;
+        border: solid 1px $font-gray;
+        border-radius: 10px;
+        text-align: center;
+
+        .likemark {
+            width: 100px;
+            height: 100px;
+            border: solid 1px #999999;
+            border-radius: 10px;
+            margin: 10px auto;
+        }
+    }
+    .likecard2 {
+        width: 150px;
+        height: 200px;
+        margin: 10px;
+        border: solid 1px #999999;
+        border-radius: 10px;
+        text-align: center;
+
+        .likemark {
+            width: 100px;
+            height: 100px;
+            border: solid 1px  #999999;
+            border-radius: 10px;
+            margin: 10px auto;
+        }
+    }
+}
+
+//memlike 以上我的關注

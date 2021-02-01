@@ -1,0 +1,64 @@
+$primary: #243a6e;
+$secondary: #0d5661;
+$danger: #d44f44;
+$dark: #6c757d;
+$font-black: #323232;
+$font-gray: #787878;
+$bg-gray: #cdcdcd;
+$bg-light: #f0f0f0;
+$shadow: #e7e7e7;
+
+//memsidebar
+.memsidebar {
+    width: 155px;
+    height: 550px;
+
+
+
+
+    .avatar {
+        width: 130px;
+        height: 130px;
+        background-color: #ccc;
+        border-radius: 10px;
+        object-fit: cover
+    }
+
+    .whiteSpacePre {
+        white-space: pre;
+    }
+
+    .sidebar {
+        margin-top: 20px;
+        width: 100px;
+        height: 280px;
+    }
+
+    .wrapper {
+        width: 100px;
+        height: 40px;
+
+        .photoicon {
+            margin-right: 0px;
+        }
+
+    }
+
+    .photoicon {
+        padding: 0px;
+    }
+
+
+}
+
+.memsidebar a {
+    color: $primary;
+
+    &:hover {
+        color: $danger;
+    }
+
+    &:active {
+        color: $danger;
+    }
+}

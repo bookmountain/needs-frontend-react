@@ -1,0 +1,57 @@
+.messageContainer {
+  display: flex;
+  padding: 0 5%;
+  margin-top: 20px;
+  p{
+    margin-bottom: 5px;
+  }
+
+  .messageBox {
+    background: #F3F3F3;
+    border: 1px solid #ccc;
+    padding: 5px 20px;
+    color: white;
+    display: inline-block;
+    max-width: 230px;
+
+  }
+  
+  .messageText {
+    width: 100%;
+    letter-spacing: 0;
+    float: left;
+    font-size: 16px;
+    word-wrap: break-word;
+    color:#777
+  }
+
+  .timestamp{
+    transform: translateY(30px);
+    font-size: 14px;
+  }
+
+  .customersText {
+  
+    border-radius: 20px 20px 0 20px;
+    background-color: transparent;
+    p{
+      color: black;
+    }
+  }
+
+  .merchantText {
+    border-radius: 20px 20px 20px 0;
+    background-color: #cdcdcd;
+    p{
+      color: black;
+    }
+  }
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}

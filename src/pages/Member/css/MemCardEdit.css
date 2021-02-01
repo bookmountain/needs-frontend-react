@@ -1,0 +1,44 @@
+.memcard .wrapper .icons {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.memcard .wrapper a:hover {
+  color: #d44f44;
+}
+
+.memcard .wrapper a:active {
+  color: #d44f44;
+}
+
+.memcard .wrapper button {
+  margin-left: 20px;
+}
+
+.memcard .wrapper button a {
+  color: #f0f0f0;
+}
+
+.memcard .wrapper button a:hover {
+  color: #f0f0f0;
+}
+
+.memcard .container li {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.memcard .container li .item {
+  width: 80px;
+  height: 18px;
+  color: #787878;
+}
+
+.memcard .container li .item2 {
+  width: 100px;
+  height: 18px;
+  color: #787878;
+}
+/*# sourceMappingURL=MemCardEdit.css.map */

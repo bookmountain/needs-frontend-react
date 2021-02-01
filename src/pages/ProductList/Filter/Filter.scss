@@ -1,0 +1,29 @@
+.filter {
+  background-color: #f0f0f0;
+  align-items: center;
+
+  .info{
+    transform: translateY(10px);
+  }
+  .amountName{
+    @media (max-width:1091px) {
+      display: none;
+  }
+  }
+  .filterRight {
+    align-items: flex-end;
+    cursor: pointer;
+    .choiceView {
+      transform: translateY(-5px);
+    }
+    label {
+      width: 100px;
+      @media (max-width:1091px) {
+        display: none;
+    }
+    }
+    select {
+      width: 130px;
+    }
+  }
+}

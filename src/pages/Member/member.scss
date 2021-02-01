@@ -1,0 +1,94 @@
+$primary: #243a6e;
+$secondary: #0d5661;
+$danger: #d44f44;
+$dark: #6c757d;
+$font-black: #323232;
+$font-gray: #787878;
+$bg-gray: #cdcdcd;
+$bg-light: #f0f0f0;
+$shadow: #e7e7e7;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap');
+
+
+.hiddenBar {
+    
+        
+    @media (max-width:995px) {
+        z-index: 2;
+        position: absolute;
+        transform: translate(-300px);
+        background-color: $bg-light;
+        max-width: 160px;
+        height: 480px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 150px 2px #aba9a9;
+
+    }
+}
+
+.hiddenBtn {
+    width: 100px;
+    display: none;
+
+    @media (max-width:995px) {
+        display: grid;
+    }
+}
+.mirrorRotateLevel {
+  transform: rotateY(180deg);   /* 水平镜像翻转 */
+}
+
+.member {
+    p {
+        margin: 0px;
+    }
+
+
+  .font-s {
+    font-size: 1rem;
+  }
+
+  .font-m {
+    font-size: 1.5rem;
+  }
+
+  .font-l {
+    font-size: 2rem;
+  }
+
+
+
+
+    .maincard {
+        margin-bottom: 30px;
+        padding: 20px;
+        min-height: 570px;
+        border-radius: 10px;
+        border: solid 2px $danger;
+        box-shadow: 6px 5px $shadow;
+
+        @media (max-width:1000px) {
+            min-height: 800px;
+        }
+    }
+
+    //---memshop topbar
+    //-->參考：https://wcc723.github.io/css/2020/02/21/css-border/#
+    .topside {
+        .topsidebox {
+            width: 150px;
+            height: 50px;
+            cursor: point;
+        }
+
+        a:hover {
+            color: $danger;
+        }
+
+        a:active {
+            color: $danger;
+            box-shadow: 0 -2px $danger inset;
+        }
+    }
+}

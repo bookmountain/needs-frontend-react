@@ -1,0 +1,39 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-top: 1px solid #ccc;
+  height: 60px;
+  padding-top: 8px;
+}
+
+.form .fab {
+  background: rgba(0, 0, 0, 0);
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  color: #bbb;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.form .fab:hover {
+  color: #42a5f5;
+}
+
+.form textarea {
+  margin: 5px 0 5px 0;
+  width: 60%;
+  height: 40px;
+  resize: none;
+  border: none;
+  outline: none;
+  display: inline-block;
+  background-color: #f8f9fa;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+/*# sourceMappingURL=Input.css.map */

@@ -1,0 +1,9 @@
+.messages {
+  padding: 5% 0;
+  overflow: auto;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  height: 375px;
+}
+/*# sourceMappingURL=Messages.css.map */

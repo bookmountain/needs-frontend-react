@@ -1,0 +1,50 @@
+$primary: #243a6e;
+$secondary: #0d5661;
+$danger: #d44f44;
+$dark: #6c757d;
+$font-black: #323232;
+$font-gray: #787878;
+$bg-gray: #cdcdcd;
+$bg-light: #f0f0f0;
+$shadow: #e7e7e7;
+//meminform
+.memInformOne {
+    .wrapper {
+        .icons {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    }
+
+    .informbar {
+        width: 850px;
+        height: 60px;
+        border: solid 1px $font-gray;
+        border-radius: 10px;
+        margin: 10px;
+
+        @media screen and (min-width:481px) and (max-width:768px) {
+            width: 410px;
+            min-height: 100px;
+            margin: 10px auto;
+        }
+
+        .sign {
+            width: 50px;
+            height: 50px;
+            border: solid 1px $font-gray;
+            border-radius: 10px;
+            margin: auto 5px;
+        }
+
+        .textbox {
+            width: 750px;
+            height: 40px;
+            margin-left: 20px;
+        }
+    }
+}
+
+//meminform 以上通知中心

@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap");
+@media (max-width: 995px) {
+  .hiddenBar {
+    z-index: 2;
+    position: absolute;
+    -webkit-transform: translate(-300px);
+            transform: translate(-300px);
+    background-color: #f0f0f0;
+    max-width: 160px;
+    height: 480px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 150px 2px #aba9a9;
+            box-shadow: 1px 1px 150px 2px #aba9a9;
+  }
+}
+
+.hiddenBtn {
+  width: 100px;
+  display: none;
+}
+
+@media (max-width: 995px) {
+  .hiddenBtn {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
+.mirrorRotateLevel {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  /* 水平镜像翻转 */
+}
+
+.member p {
+  margin: 0px;
+}
+
+.member .font-s {
+  font-size: 1rem;
+}
+
+.member .font-m {
+  font-size: 1.5rem;
+}
+
+.member .font-l {
+  font-size: 2rem;
+}
+
+.member .maincard {
+  margin-bottom: 30px;
+  padding: 20px;
+  min-height: 570px;
+  border-radius: 10px;
+  border: solid 2px #d44f44;
+  -webkit-box-shadow: 6px 5px #e7e7e7;
+          box-shadow: 6px 5px #e7e7e7;
+}
+
+@media (max-width: 1000px) {
+  .member .maincard {
+    min-height: 800px;
+  }
+}
+
+.member .topside .topsidebox {
+  width: 150px;
+  height: 50px;
+  cursor: point;
+}
+
+.member .topside a:hover {
+  color: #d44f44;
+}
+
+.member .topside a:active {
+  color: #d44f44;
+  -webkit-box-shadow: 0 -2px #d44f44 inset;
+          box-shadow: 0 -2px #d44f44 inset;
+}
+/*# sourceMappingURL=member.css.map */

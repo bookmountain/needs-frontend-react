@@ -1,0 +1,49 @@
+.memsidebar {
+  width: 155px;
+  height: 550px;
+}
+
+.memsidebar .avatar {
+  width: 130px;
+  height: 130px;
+  background-color: #ccc;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.memsidebar .whiteSpacePre {
+  white-space: pre;
+}
+
+.memsidebar .sidebar {
+  margin-top: 20px;
+  width: 100px;
+  height: 280px;
+}
+
+.memsidebar .wrapper {
+  width: 100px;
+  height: 40px;
+}
+
+.memsidebar .wrapper .photoicon {
+  margin-right: 0px;
+}
+
+.memsidebar .photoicon {
+  padding: 0px;
+}
+
+.memsidebar a {
+  color: #243a6e;
+}
+
+.memsidebar a:hover {
+  color: #d44f44;
+}
+
+.memsidebar a:active {
+  color: #d44f44;
+}
+/*# sourceMappingURL=MemSidebar.css.map */

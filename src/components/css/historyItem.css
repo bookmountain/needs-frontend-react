@@ -1,0 +1,99 @@
+.HistoryItem {
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  max-width: 210px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .HistoryItem {
+    text-align: -webkit-center;
+  }
+}
+
+.HistoryItem .productPic {
+  position: relative;
+}
+
+.HistoryItem .productPic:hover {
+  background-color: #000800;
+}
+
+.HistoryItem .productPic:hover img {
+  opacity: .5;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.HistoryItem .productPic:hover .storeContent {
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+  z-index: 1;
+}
+
+.HistoryItem .productPic img {
+  width: 100%;
+  height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.HistoryItem .productPic .ecoinUse {
+  background-color: #243a6e;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  z-index: 1;
+}
+
+.HistoryItem .productPic .storeContent {
+  position: absolute;
+  width: 100px;
+  left: calc(25%);
+  top: 50%;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  opacity: 0;
+}
+
+.HistoryItem .textArea .merchantName {
+  margin: 10px 0;
+  color: #787878;
+}
+
+.HistoryItem .textArea .title {
+  height: 50px;
+}
+
+.HistoryItem .textArea .priceDiscount {
+  color: #d44f44;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.HistoryItem .textArea .price {
+  text-decoration: line-through;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
+.HistoryItem .cart {
+  margin-right: 10px;
+}
+
+.HistoryItem input[type='radio'] {
+  display: none;
+}
+
+.HistoryItem .favore {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+/*# sourceMappingURL=historyItem.css.map */

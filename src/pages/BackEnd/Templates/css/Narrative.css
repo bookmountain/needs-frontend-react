@@ -1,0 +1,280 @@
+.Narrative h2,
+.Narrative h4,
+.Narrative h5,
+.Narrative h6,
+.Narrative p,
+.Narrative span {
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+}
+
+.Narrative h2 {
+  font-size: 1.5rem;
+}
+
+.Narrative h4 {
+  font-size: 1rem;
+}
+
+.Narrative p {
+  font-size: 0.875rem;
+}
+
+.Narrative .sec1_background {
+  min-height: calc(65vh - 80px);
+  width: 100%;
+  background-image: url("../images/default-background.png");
+  background-size: cover;
+}
+
+.Narrative .bg-text {
+  position: absolute;
+  top: 450px;
+  left: 210px;
+}
+
+.Narrative .bg-font {
+  color: white;
+  font-size: 120px;
+  text-shadow: 2px 2px #323232;
+}
+
+.Narrative .background-color {
+  min-height: 35vh;
+  width: 57%;
+  padding-top: 45px;
+  position: absolute;
+}
+
+.Narrative .sec1_avatar {
+  min-height: 35vh;
+  width: 60%;
+  padding-top: 50px;
+  position: relative;
+}
+
+.Narrative .sec1_avatar h2,
+.Narrative .sec1_avatar h4 {
+  color: #fff;
+  line-height: 2rem;
+  padding-top: 0.5rem;
+}
+
+.Narrative .sec1_avatar .avatar {
+  height: 180px;
+  width: 180px;
+  background-image: url("../images/pommedepin111_300x300.jpg");
+  background-size: cover;
+  margin: 1rem 3rem 1rem 3rem;
+}
+
+.Narrative .sec1_avatar .store-follower-btn {
+  margin-bottom: 1rem;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 16px;
+  width: 100px;
+  height: 30px;
+  background-color: #d44f44;
+  border: none;
+}
+
+.Narrative .sec1_avatar .store-follower-btn:hover {
+  background-color: #d44f44;
+}
+
+.Narrative .sec1_avatar .store-follower-btn:active {
+  background-color: #d44f44;
+}
+
+.Narrative .sec1_avatar .store-follower-btn:focus {
+  background-color: #d44f44;
+}
+
+.Narrative .sec1_info {
+  min-height: 35vh;
+  width: 43%;
+  padding: 55px 0rem 0rem 7rem;
+}
+
+.Narrative .sec1_info .row1 {
+  margin-bottom: 2rem;
+}
+
+.Narrative .sec1_info .red {
+  color: #d44f44;
+}
+
+.Narrative .sec2 {
+  background-color: #f0f0f0;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.Narrative .sec2 .wrapper {
+  -webkit-box-align: between;
+      -ms-flex-align: between;
+          align-items: between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 100px;
+}
+
+.Narrative .sec2 .sml {
+  width: 300px;
+}
+
+.Narrative .product-bg-pic {
+  height: 60vh;
+  width: 60vh;
+  background-size: cover;
+  margin-right: 30px;
+}
+
+.Narrative .product-sml-pic {
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 7px 7px 7px 2px rgba(148, 142, 142, 0.2);
+          box-shadow: 7px 7px 7px 2px rgba(148, 142, 142, 0.2);
+}
+
+.Narrative .sec3 {
+  width: 100%;
+  background-color: #fff;
+}
+
+.Narrative .sec4 {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 100px;
+  background-color: #f0f0f0;
+}
+
+.Narrative .sec4 .activities-wrapper {
+  height: 400px;
+  width: 60%;
+  border: 3px solid #8e8e8e;
+  padding-right: 40px;
+  position: relative;
+}
+
+.Narrative .sec4 .activities-img {
+  width: 350px;
+  height: 350px;
+  background-image: url("../images/default-img.png");
+  background-size: cover;
+  position: absolute;
+  left: -150px;
+  top: 1rem;
+  -webkit-box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.2);
+}
+
+.Narrative .sec4 .text {
+  margin-left: 250px;
+}
+
+.Narrative .sec4 .activity-btn {
+  margin-bottom: 1rem;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 16px;
+  width: 278px;
+  height: 51px;
+  background-color: #243a6e;
+  border: none;
+}
+
+.Narrative .sec4 .activity-btn:hover {
+  background-color: #243a6e;
+}
+
+.Narrative .sec4 .activity-btn:active {
+  background-color: #243a6e;
+}
+
+.Narrative .sec4 .activity-btn:focus {
+  background-color: #243a6e;
+}
+
+.Narrative .sec5 {
+  width: 100%;
+  background-color: #fff;
+}
+
+.Narrative .underline-wrapper {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.Narrative .brandStory_img {
+  height: 30vh;
+  width: 30vh;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.Narrative .underline {
+  border-bottom: 3px solid #d44f44;
+  width: 150px;
+}
+
+.Narrative .text-wrapper {
+  background-color: #f0f0f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30vh;
+  width: 100%;
+}
+
+.Narrative .adjust {
+  margin-left: 130px;
+  margin-bottom: 70px;
+}
+
+.Narrative .btn {
+  margin-bottom: 1rem;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 16px;
+  height: 50px;
+  background-color: #d44f44;
+  border: none;
+}
+
+.Narrative .btn:hover {
+  background-color: #d44f44;
+}
+
+.Narrative .btn:active {
+  background-color: #d44f44;
+}
+
+.Narrative .btn:focus {
+  background-color: #d44f44;
+}
+/*# sourceMappingURL=Narrative.css.map */
